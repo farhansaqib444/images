@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+//https://xd.adobe.com/view/30a06802-1133-4b71-5fff-2c91baf72df9-4691/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 blockquote, pre, a, abbr, acronym, address, big, cite, code, del,
 dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup,
@@ -227,7 +228,6 @@ button {
 }
 
 //left user card section
-
 .user-card {
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 0px 6px #00000024;
@@ -296,9 +296,19 @@ button {
     }
   }
 }
-
 //left user card section end
 
+//booking details styling start
+.navigate-icon {
+  border: 1px solid #242424;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  .material-icons {
+    vertical-align: middle;
+  }
+}
+//booking details styling end
 
 .footer {
   background: transparent linear-gradient(0deg, #F8D7C7 0%, #F6CDD6 76%, #F6CDD6 100%) 0% 0% no-repeat padding-box;
