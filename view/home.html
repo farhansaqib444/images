@@ -47,7 +47,7 @@
         </div>
       </div>
       <div class="col-md-9">
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <ul class="nav nav-tabs parent-tab" id="myTab" role="tablist">
           <li class="nav-item">
             <a class="ml-0 nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
           </li>
@@ -59,7 +59,75 @@
           </li>
         </ul>
         <div class="tab-content" id="myTabContent">
-          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">A</div>
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+
+            <ul class="nav nav-tabs child-tab bold-border" id="BookingsTab" role="tablist">
+              <li class="nav-item">
+                <a class="ml-0 nav-link active" id="Upcoming-tab" data-toggle="tab" href="#Upcoming" role="tab" aria-controls="home" aria-selected="true">Upcoming bookings</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="previous-tab" data-toggle="tab" href="#previous" role="tab" aria-controls="profile" aria-selected="false">Previous bookings</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="cancelled-tab" data-toggle="tab" href="#cancelled" role="tab" aria-controls="contact" aria-selected="false">Cancelled bookings</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="BookingsTabContent">
+              <div class="tab-pane fade show active" id="Upcoming" role="tabpanel" aria-labelledby="home-tab">
+                <div class="table-responsive">
+                  <table class="table">
+                    <tbody class="w-100">
+                      <tr>
+                        <td width="90px" align="center" class="bg-gray">
+                          <p class="booking-date">Oct 23</p>
+                          <p class="booking-time">10:00</p>
+                        </td>
+                        <td>
+                        <p class="booking-destination">Brow Wex</p>
+                        <p>Belle Curls Salon</p>
+                      </td>
+                      <td align="right" valign="middle" class="nowrap">
+                        <p class="booking-reason">Home Visit</p>
+                      </td>
+                      </tr>
+                      <tr>
+                        <td width="90px" align="center" class="bg-gray">
+                          <p class="booking-date">Oct 23</p>
+                          <p class="booking-time">10:00</p>
+                        </td>
+                        <td>
+                          <p class="booking-destination">Brow Wex</p>
+                          <p>Right now Europe Trip, you already know that you are in for a collection of the best free booking </p>
+                        </td>
+                        <td align="right" valign="middle">
+                          <p class="booking-reason nowrap">Europe Trip</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td width="90px" align="center" class="bg-gray">
+                          <p class="booking-date">Oct 23</p>
+                          <p class="booking-time">10:00</p>
+                        </td>
+                        <td>
+                          <p class="booking-destination">Brow Wex</p>
+                          <p>Belle Curls Salon</p>
+                        </td>
+                        <td align="right" valign="middle" class="nowrap">
+                          <p class="booking-reason">Home Visit</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+              </div>
+              <div class="tab-pane fade" id="previous" role="tabpanel" aria-labelledby="profile-tab">previous</div>
+              <div class="tab-pane fade" id="cancelled" role="tabpanel" aria-labelledby="contact-tab">cancelled</div>
+            </div>
+          </div>
+
+
           <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">B</div>
           <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">C</div>
         </div>
