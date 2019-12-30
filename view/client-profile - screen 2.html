@@ -5,6 +5,8 @@
 	<title>Pamper</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="../style/dynamic-style.css">
   <link rel="stylesheet" href="../style/style.css">
 
 </head>
@@ -51,7 +53,7 @@
       <div class="col-md-9">
         <ul class="nav nav-tabs parent-tab" id="myTab" role="tablist">
           <li class="nav-item">
-            <a class="ml-0 nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+            <a class="ml-0 nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Bookings</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
@@ -76,28 +78,108 @@
             <div class="tab-content" id="BookingsTabContent">
               <div class="tab-pane fade show active" id="Upcoming" role="tabpanel" aria-labelledby="home-tab">
                 <div class="booking-details">
-                  <div class="row align-items-center justify-content-center bold-border">
-                    <div class="col">
-                      <div class="navigate-icon mr-auto">
-                        <i class="material-icons">
-                          keyboard_backspace
-                        </i>
+                  <div class="container">
+<!--                    order refer header-->
+                    <div class="row bold-border mb-4">
+                      <div class="col d-flex align-items-center py-3 pl-2 pl-lg-0">
+                        <div class="navigate-icon p-1">
+                          <button class="btn p-0">
+                            <i class="material-icons flex-shrink-1">
+                              keyboard_backspace
+                            </i>
+                          </button>
+                        </div>
+                        <div class="w-100 text-center">
+                          <h3 class="booking-destination">Order ref. T335061270</h3>
+                          <p>Placed 2 October 2019, 12:50 PM</p>
+                        </div>
                       </div>
-                      <div class="">
-                        <h3 class="booking-destination">Order ref. T335061270</h3>
-                        <p>Placed 2 October 2019, 12:50 PM</p>
+                    </div>
+<!--                    order refer Details start-->
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="dotted-border-b text-center mb-3">
+                          <h3 class="booking-info-title mb-3">Therapist</h3>
+                        </div>
+<!--                        user-rating-card-->
+                        <div class="user-rating-card dotted-border-b mb-3">
+                          <div class="media">
+                            <img class="mr-3" src="../images/user-rating.png" alt="user-rating">
+                            <div class="media-body align-self-center">
+                              <h5 class="mt-0">Carmen Brewer</h5>
+                              <div class="rating">
+                                <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Meh">5 stars</label>
+                                <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Kinda bad">4 stars</label>
+                                <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Kinda bad">3 stars</label>
+                                <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Sucks big tim">2 stars</label>
+                                <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
+                              </div>
+                              <span >5.0</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="address-text">
+                          <label for="">Address</label>
+                          <p>80a Barnes Hill, Birmingham, B295UW United Kingdom</p>
+                        </div>
+<!--                        Payment details-->
+                        <div class="dotted-border-b text-center mb-3">
+                          <h3 class="booking-info-title mb-3">Payment details</h3>
+                        </div>
+                        <ul class="payment-detail-list">
+                          <li class="dotted-border-b">
+                            <span class="payment-title">Order total</span>
+                            <span class="payment-value">£ 30</span>
+                          </li>
+                          <li class="dotted-border-b">
+                            <span class="payment-title">Pay at venue</span>
+                            <span class="payment-value">£ 30</span>
+                          </li>
+                        </ul>
+                      </div>
+<!--                      Appointment Details-->
+                      <div class="col-md-6">
+                        <div class="dotted-border-b text-center mb-3">
+                          <h3 class="booking-info-title mb-3">Appointment Details</h3>
+                        </div>
+                        <div class="container">
+                          <div class="row border-between appointment-time dotted-border-b mb-4">
+                            <div class="col-md-6 mb-3">
+                              <h3>2:30 PM</h3>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                              <p>4 October</p>
+                              <p>Friday</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col text-center mb-4">
+                              <button class="btn btn-primary btn-lg mr-0 mr-md-3">HOME VISIT</button>
+                              <button class="btn btn-light btn-lg">SALON VISIT</button>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12 map-widget mb-4">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d54442.05929553671!2d74.2998016!3d31.479398400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1577701522951!5m2!1sen!2s" width="100%" height="240" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                            </div>
+                            <div class="col-12">
+                              <p class="change-plane">
+                                Plans changed? <a class="link" href="#">Cancel</a> your order
+                              </p>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-
               </div>
               <div class="tab-pane fade" id="previous" role="tabpanel">previous</div>
               <div class="tab-pane fade" id="cancelled" role="tabpanel">cancelled</div>
             </div>
           </div>
           <div class="tab-pane fade" id="profile" role="tabpanel">B</div>
-          <div class="tab-pane fade" id="contact" role="tabpanel"">C</div>
+          <div class="tab-pane fade" id="contact" role="tabpanel">C</div>
         </div>
       </div>
     </div>

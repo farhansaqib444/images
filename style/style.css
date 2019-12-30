@@ -38,68 +38,6 @@ q:before, q:after {
   content: '';
   content: none; }
 
-::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #9D9D9D;
-  font-size: 16px;
-  font-weight: 300;
-  font-family: 'Fira Sans', sans-serif;
-  opacity: 1;
-  /* Firefox */ }
-
-:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #9D9D9D;
-  font-size: 16px;
-  font-weight: 300;
-  font-family: 'Fira Sans', sans-serif; }
-
-::-ms-input-placeholder {
-  /* Microsoft Edge */
-  color: #9D9D9D;
-  font-size: 16px;
-  font-weight: 300;
-  font-family: 'Fira Sans', sans-serif; }
-
-.form-control:focus {
-  color: #495057;
-  background-color: #fff;
-  border: none;
-  outline: 0;
-  box-shadow: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-a:hover {
-  text-decoration: none;
-  cursor: pointer; }
-
-button {
-  background-color: transparent;
-  outline: none;
-  border: 0;
-  cursor: pointer; }
-
-.bg-gray {
-  background-color: #FBF5F5; }
-
-.text-primary-84 {
-  color: #848484; }
-
-.text-secondary-67 {
-  color: #676767; }
-
-.text-dark {
-  color: #1E1E1E; }
-
-.text-semi-dark-34 {
-  color: #343434; }
-
-.text-danger {
-  color: #FC5959; }
-
 .login-btn {
   background: transparent linear-gradient(356deg, #F8D7C7 0%, #F6CDD6 100%) 0% 0% no-repeat padding-box;
   border-radius: 22px;
@@ -192,13 +130,13 @@ button {
     font-family: 'Fira Sans', sans-serif;
     color: #848484; }
 
-.booking-destination {
+.booking-destination, .booking-info-title {
   font-size: 16px;
   font-weight: 400;
   font-family: 'Fira Sans', sans-serif;
   color: #1E1E1E;
   margin-bottom: 5px; }
-  .booking-destination + p {
+  .booking-destination + p, .booking-info-title + p {
     font-size: 16px;
     font-weight: 400;
     font-family: 'Fira Sans', sans-serif;
@@ -265,19 +203,132 @@ button {
       color: #343434; }
     .user-card .user-card-footer a.reset-pass {
       color: #FC5959;
-      font-size: 14px;
       display: block;
+      font-size: 14px;
       font-weight: 400;
-      margin-bottom: 10px;
-      font-family: 'Fira Sans', sans-serif; }
+      font-family: 'Fira Sans', sans-serif;
+      margin-bottom: 10px; }
 
 .navigate-icon {
   border: 1px solid #242424;
-  width: 30px;
-  height: 30px;
   border-radius: 100%; }
   .navigate-icon .material-icons {
-    vertical-align: middle; }
+    vertical-align: middle;
+    line-height: 20px; }
+
+.booking-details .appointment-time {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-family: 'Fira Sans', sans-serif;
+  letter-spacing: 0;
+  color: #5B5B5B; }
+  .booking-details .appointment-time h3 {
+    font-weight: 300;
+    font-size: 36px; }
+  .booking-details .appointment-time p {
+    font-weight: 300;
+    font-size: 16px; }
+.booking-details .payment-detail-list li {
+  padding-bottom: 16px;
+  margin-bottom: 16px; }
+  .booking-details .payment-detail-list li .payment-title {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+    color: #6D6D6D;
+    display: inline-block;
+    width: 40%; }
+  .booking-details .payment-detail-list li .payment-value {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+    color: #1E1E1E; }
+
+.address-text label {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+  margin-bottom: 7px;
+  letter-spacing: 0;
+  color: #7E7E7E; }
+.address-text p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+  line-height: 23px;
+  color: #575757; }
+
+.remove-booking-modal .modal-content {
+  border: none;
+  border-radius: 0;
+  outline: 0;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 50px #00000017; }
+.remove-booking-modal .modal-body {
+  padding: 40px 0 30px 0; }
+  .remove-booking-modal .modal-body p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 0;
+    color: #2D2D2D;
+    margin-bottom: 38px; }
+  .remove-booking-modal .modal-body .cancel-fee {
+    padding: 25px 0;
+    margin-bottom: 50px;
+    background: transparent linear-gradient(0deg, #F8D7C7 0%, #F6CDD6 76%, #F6CDD6 100%) 0% 0% no-repeat padding-box;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Roboto;
+    letter-spacing: 0;
+    color: #535353; }
+  .remove-booking-modal .modal-body .cancel-modal-footer div:first-child a {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 0;
+    color: #A4A4A4; }
+  .remove-booking-modal .modal-body .cancel-modal-footer div:last-child a {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 0;
+    color: #FF9797; }
+
+.payment-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #5D5D5D21;
+  border-radius: 5px;
+  opacity: 1;
+  min-height: 110px; }
+  .payment-card img {
+    margin-bottom: 15px; }
+  .payment-card.mini-card {
+    min-height: 51px;
+    align-items: center;
+    padding: 0 10px; }
+    .payment-card.mini-card img {
+      margin-bottom: 0px; }
+    .payment-card.mini-card .custom-control {
+      padding-left: 15px; }
+    .payment-card.mini-card .custom-control-label::after {
+      width: 15px;
+      height: 15px; }
+    .payment-card.mini-card .custom-control-label::before {
+      width: 15px;
+      height: 15px; }
+    .payment-card.mini-card .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+      background-size: 10px; }
+  .payment-card p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Roboto;
+    letter-spacing: 0;
+    color: #BEBEBE; }
 
 .footer {
   background: transparent linear-gradient(0deg, #F8D7C7 0%, #F6CDD6 76%, #F6CDD6 100%) 0% 0% no-repeat padding-box;
