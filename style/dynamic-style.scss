@@ -65,6 +65,7 @@ button.btn {
   border: 0;
   cursor: pointer;
   border-radius: 3px;
+  padding: 8px 10px;
   &:focus {
     outline: none;
   }
@@ -74,6 +75,16 @@ button.btn {
   font-size: 16px;
   line-height: 1.5;
   border-radius: .3rem;
+}
+.btn-white {
+  font-size: 16px;
+  font-family: 'Fira Sans', sans-serif;
+  letter-spacing: 0;
+  color: #545454;
+  i {
+    float: left;
+    color: #313133;
+  }
 }
 .btn-primary {
   color: #fff;
@@ -186,17 +197,20 @@ button.btn {
 .font-600 {
   font-weight: 600 !important;
 }
+.font-16 {
+  font-size: 16px !important;
+}
 .font-18 {
-  font-size: 18px;
+  font-size: 18px !important;
 }
 .font-20 {
-  font-size: 20px;
+  font-size: 20px !important;
 }
 .font-24 {
-  font-size: 24px;
+  font-size: 24px !important;
 }
 .font-33 {
-  font-size: 33px;
+  font-size: 33px !important;
 }
 .border {
   border: 1px solid #D4D4D4;
