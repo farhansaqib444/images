@@ -31,6 +31,14 @@ a.link {
   a.link:hover {
     cursor: pointer; }
 
+.apps-button-group a {
+  display: inline-block; }
+  .apps-button-group a:first-child {
+    margin-right: 30px; }
+  .apps-button-group a img {
+    width: 208px;
+    display: inline-block; }
+
 .cursor-pointer {
   cursor: pointer; }
 
@@ -114,6 +122,20 @@ button.btn {
 
 .bg-gray {
   background-color: #FBF5F5; }
+
+.section-title {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 53px;
+  font-family: 'Fira Sans', sans-serif;
+  letter-spacing: 0;
+  color: #616161; }
+  .section-title.abstract-title {
+    max-width: 475px;
+    width: 100%;
+    margin: 0 auto; }
+    .section-title.abstract-title p {
+      color: #616161; }
 
 .section-label {
   font-size: 20px;

@@ -29,6 +29,16 @@ a.link {
     cursor: pointer;
   }
 }
+.apps-button-group a {
+  display: inline-block;
+  &:first-child {
+    margin-right: 30px;
+  }
+  img {
+    width: 208px;
+    display: inline-block;
+  }
+}
 .cursor-pointer {
   cursor: pointer;
 }
@@ -118,6 +128,22 @@ button.btn {
 
 .bg-gray {
   background-color: #FBF5F5;
+}
+.section-title {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 53px;
+  font-family: 'Fira Sans', sans-serif;
+  letter-spacing: 0;
+  color: #616161;
+  &.abstract-title {
+    max-width: 475px;
+    width: 100%;
+    margin: 0 auto;
+    p {
+      color: #616161;
+    }
+  }
 }
 .section-label {
   font-size: 20px;

@@ -451,6 +451,47 @@ q {
 }
 //Home page-7 styling Download app page End
 
+//get-app-page Home page 5p styling
+.get-app-page {
+  .get-app-banner {
+    background: url("../images/get-app.png") center center/cover no-repeat;
+    min-height: 504px;
+  }
+  .salon-card {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #AFAFAF;
+    border-bottom: 0;
+    border-radius: 4px;
+    .salon-card-body {
+      padding: 15px 20px;
+      &.add {
+        h3 {
+          font-size: 24px;
+          font-weight: 600;
+          font-family: 'Fira Sans', sans-serif;
+          letter-spacing: 0;
+          margin-bottom: 8px;
+        }
+        p {
+          font-size: 14px;
+          font-weight: 400;
+          font-family: 'Fira Sans', sans-serif;
+          letter-spacing: 0;
+          color: #FF9797;
+        }
+      }
+
+    }
+    img {
+      margin-bottom: -3px;
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px;
+    }
+  }
+}
+
+//get-app-page Home page 5p styling End
+
 .footer {
   background: transparent linear-gradient(0deg, #F8D7C7 0%, #F6CDD6 76%, #F6CDD6 100%) 0% 0% no-repeat padding-box;
   box-shadow: 0px -3px 10px #0000000A;
@@ -522,6 +563,16 @@ q {
       }
     }
   }
+  .apps-button-group a {
+    display: inline-block;
+    &:first-child {
+      margin-right: 30px;
+    }
+    img {
+      width: 130px;
+      display: inline-block;
+    }
+  }
 }
 .social-media {
   margin-bottom: 60px;
@@ -532,16 +583,6 @@ q {
         height: 40px;
         border-radius: 100%;
       }
-  }
-}
-.apps-button-group a {
-  display: inline-block;
-  &:first-child {
-    margin-right: 30px;
-  }
-  img {
-    width: 132px;
-    display: inline-block;
   }
 }
 
