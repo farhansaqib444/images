@@ -172,16 +172,19 @@ q:before, q:after {
     margin-bottom: 20px;
     color: #656565; }
   .user-card .btn {
-    background: #C4C4C4 0% 0% no-repeat padding-box;
-    border-radius: 2px;
-    letter-spacing: 0;
-    color: #313131;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
-    border: none;
-    outline: none;
-    font-family: 'Fira Sans', sans-serif;
-    margin-bottom: 30px; }
+    font-family: 'Fira Sans', sans-serif; }
+  .user-card .user-card-form input[type=text], .user-card .user-card-form select, .user-card .user-card-form textarea {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DCDCDC;
+    width: 100%;
+    padding: 7px 7px;
+    margin-bottom: 10px;
+    color: #6E6E6E; }
+  .user-card .user-card-form textarea {
+    width: 100%;
+    resize: none; }
   .user-card .user-card-footer {
     border-top: 1px solid #DCDCDC;
     padding-top: 20px; }
