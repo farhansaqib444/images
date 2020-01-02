@@ -138,6 +138,12 @@ button.btn {
   background-color: #C4C4C4;
   border-color: #C4C4C4; }
 
+.btn-transparent {
+  color: #FF9797;
+  background: transparent 0% 0% no-repeat padding-box;
+  border-radius: 4px !important;
+  border: 2px solid #FF9797 !important; }
+
 .bg-gray {
   background-color: #FBF5F5; }
 
@@ -237,6 +243,22 @@ button.btn {
     font-weight: 400;
     font-family: 'Fira Sans', sans-serif;
     color: #2E2E2E; }
+  .user-rating-card.user-card-lg img {
+    width: 130px;
+    height: 130px; }
+    .user-rating-card.user-card-lg img.rounded-circle {
+      width: 130px;
+      height: 130px; }
+  .user-rating-card.user-card-lg h5 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Fira Sans', sans-serif;
+    color: #2E2E2E;
+    margin-bottom: 15px; }
+  .user-rating-card.user-card-lg span {
+    font-size: 22px; }
+  .user-rating-card.user-card-lg .rating:not(:checked) > label {
+    font-size: 30px; }
 
 .rating {
   float: left; }
@@ -429,5 +451,27 @@ button.btn {
   margin-bottom: 35px; }
   .comment-card .card-body {
     padding: 25px 25px; }
+
+.opening-hours {
+  background: #FBF8F8 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  padding: 20px 20px; }
+  .opening-hours ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #343434;
+    padding-bottom: 20px; }
+    .opening-hours ul li span {
+      color: #343434; }
+    .opening-hours ul li:last-child {
+      padding-bottom: 0;
+      color: #9F9F9F; }
+      .opening-hours ul li:last-child span {
+        color: #9F9F9F; }
 
 /*# sourceMappingURL=dynamic-style.css.map */

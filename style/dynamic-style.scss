@@ -146,6 +146,12 @@ button.btn {
   border-color: #C4C4C4;
 }
 
+.btn-transparent {
+  color: #FF9797;
+  background: transparent 0% 0% no-repeat padding-box;
+  border-radius: 4px !important;
+  border: 2px solid #FF9797 !important;
+}
 .bg-gray {
   background-color: #FBF5F5;
 }
@@ -253,6 +259,29 @@ button.btn {
        color: #2E2E2E;
      }
    }
+  &.user-card-lg {
+    img {
+      width: 130px;
+      height: 130px;
+      &.rounded-circle {
+        width: 130px;
+        height: 130px;
+      }
+    }
+    h5 {
+      font-size: 22px;
+      font-weight: 600;
+      font-family: 'Fira Sans', sans-serif;
+      color: #2E2E2E;
+      margin-bottom: 15px;
+    }
+    span {
+      font-size: 22px;
+    }
+    .rating:not(:checked) > label {
+      font-size: 30px;
+    }
+  }
  }
 //user-rating-card styling end
 
@@ -498,6 +527,35 @@ button.btn {
   margin-bottom: 35px;
   .card-body {
     padding: 25px 25px;
+  }
+}
+
+.opening-hours {
+  background: #FBF8F8 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  padding: 20px 20px;
+  ul {
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0;
+      color: #343434;
+      padding-bottom: 20px;
+      span {
+        color: #343434;
+      }
+      &:last-child {
+        padding-bottom: 0;
+        color: #9F9F9F;
+        span {
+          color: #9F9F9F;
+        }
+      }
+    }
   }
 }
 

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Home 3</title>
+  <title>Therapist about 12</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -39,7 +39,7 @@
 </div>
 <div id="body">
   <div class="container">
-    <!--Carousel Wrapper-->
+<!--Carousel Wrapper Start-->
     <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel" data-interval="false">
       <div class="carousel-inner" role="listbox">
         <!--First slide-->
@@ -110,7 +110,7 @@
           <div class="col-sm-12 col-md-6">
             <h2>Serenity Salon</h2>
             <p>881 Homestead St. Corpus Christi, TX 78418n</p>
-            <button class="btn btn-primary">Home & Salon Visit</button>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#salon">Home & Salon Visit</button>
           </div>
           <div class="col-sm-12 col-md-6 ">
             <div class="float-md-right float-sm-left">
@@ -140,29 +140,71 @@
         </div>
       </div>
     </div>
-    <div class="row pt-5 pb-5 mb-5">
+<!--Carousel Wrapper End-->
+
+<!--    tab Start-->
+    <div style="border-bottom: 1px solid #FF9797;" class="row pt-5 pb-5 mb-5">
       <div class="col-sm-12 col-md-7">
         <ul class="nav nav-tabs therapists-nav-navtab" id="myTab" role="tablist">
           <li class="nav-item pl-5 pr-5 ">
-            <a class="nav-link therapists-navlink pb-2" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
+            <a class="nav-link therapists-navlink pb-2 active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
           </li>
           <li class="nav-item pr-5 pl-5 pb-2">
-            <a class="nav-link therapists-navlink pb-2 active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Reviews</a>
+            <a class="nav-link therapists-navlink pb-2" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Reviews</a>
           </li>
         </ul>
         <div class="tab-content" id="myTabContent">
-          <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
-            <h4 class="mt-4 font-24 mb-2">
-              Serenity Salon
-            </h4>
-            <p class="text-lead">
-              Vivamus eget aliquam dui. Integer eu arcu vel arcu suscipit ultrices quis non mauris. Aenean scelerisque, sem eu dictum commodo, velit
-              nisi blandit magna, quis scelerisque ipsum klj lectus ut libero. Sed elit diam, dignissim bhdfk congue quis, aliquam in purus. Proin
-              ligula kjgh nulla, scelerisque quis venenatis pulvinar, congue eget neque. Proin scelerisque metus sit amet dolor tempor vehicula. Sed
-              laoreet quis velit vitae facilisis. Duis ut sapien eu urna laoreet maximus. Donec nibh diam, vulputate vel nulla ut.
-            </p>
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div>
+              <h4 class="mt-4 font-24 mb-4">
+                Marilyn Hudson
+              </h4>
+              <p class="text-lead">
+                Vivamus eget aliquam dui. Integer eu arcu vel arcu suscipit ultrices quis non mauris. Aenean scelerisque, sem eu dictum commodo, velit
+                nisi blandit magna, quis scelerisque ipsum klj lectus ut libero. Sed elit diam, dignissim bhdfk congue quis, aliquam in purus. Proin
+                ligula kjgh nulla, scelerisque quis venenatis pulvinar, congue eget neque. Proin scelerisque metus sit amet dolor tempor vehicula. Sed
+                laoreet quis velit vitae facilisis. Duis ut sapien eu urna laoreet maximus. Donec nibh diam, vulputate vel nulla ut.
+              </p>
+            </div>
+            <div>
+              <h4 class="mt-4 font-24 mb-4">
+                Marilyn Hudson
+              </h4>
+              <div class="opening-hours">
+                <ul>
+                  <li>
+                    <div>Monday</div>
+                    <div><span>9:00 AM </span> - <span>8:00 PM</span></div>
+                  </li>
+                  <li>
+                    <div>Monday</div>
+                    <div><span>9:00 AM </span> - <span>8:00 PM</span></div>
+                  </li>
+                  <li>
+                    <div>Monday</div>
+                    <div><span>9:00 AM </span> - <span>8:00 PM</span></div>
+                  </li>
+                  <li>
+                    <div>Monday</div>
+                    <div><span>9:00 AM </span> - <span>8:00 PM</span></div>
+                  </li>
+                  <li>
+                    <div>Monday</div>
+                    <div><span>9:00 AM </span> - <span>8:00 PM</span></div>
+                  </li>
+                  <li>
+                    <div>Monday</div>
+                    <div><span>9:00 AM </span> - <span>8:00 PM</span></div>
+                  </li>
+                  <li>
+                    <div>Sunday</div>
+                    <div><span>Close</span></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
             <div class="row">
               <div class="col mb-5 mt-4">
                 <div class="d-flex align-items-center">
@@ -372,6 +414,8 @@
       </div>
     </div>
   </div>
+
+
   <!-- Login Modal -->
   <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -413,7 +457,7 @@
     </div>
   </div>
   <!--Sign Up Modal-->
-  <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModalTitle" aria-hidden="true">
+  <div class="modal fade" id="salon" tabindex="-1" role="dialog" aria-labelledby="salon" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content book-modal-content-header">
         <div class="modal-header">
@@ -472,6 +516,31 @@
               <button type="submit" class="btn modal-button" >Create</button>
             </div>
           </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--    tab End-->
+
+    <div class="d-flex justify-content-center align-items-center"  style="border-bottom: 1px solid #FF9797;" >
+      <div class="user-rating-card user-card-lg rounded-circle mb-0">
+        <div class="media">
+          <img class="mr-3 rounded-circle" src="../images/user-rating.png" alt="user-rating">
+          <div class="media-body align-self-center">
+            <h5 class="mt-0">Carmen Brewer</h5>
+            <div class="rating">
+              <input type="radio" id="star5" name="rating" value="5"><label for="star5" title="Meh">5 stars</label>
+              <input type="radio" id="star4" name="rating" value="4"><label for="star4" title="Kinda bad">4 stars</label>
+              <input type="radio" id="star3" name="rating" value="3"><label for="star3" title="Kinda bad">3 stars</label>
+              <input type="radio" id="star2" name="rating" value="2"><label for="star2" title="Sucks big tim">2 stars</label>
+              <input type="radio" id="star1" name="rating" value="1"><label for="star1" title="Sucks big time">1 star</label>
+            </div>
+            <span class="font-500">5.0</span>
+            <div class="">
+              <button class="btn btn-transparent font-500 font-18 my-3 px-5">View</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
