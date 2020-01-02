@@ -226,21 +226,21 @@ button.btn {
 }
 //user-rating-card styling start
 .user-rating-card {
-  padding-bottom: 25px;
-  margin-bottom: 25px;
-  .media {
-    img {
-      width: 87px;
-      height: 75px;
-    }
-    h5 {
-      font-size: 16px;
-      font-weight: 400;
-      font-family: 'Fira Sans', sans-serif;
-      color: #2E2E2E;
-    }
-  }
-}
+   padding-bottom: 25px;
+   margin-bottom: 25px;
+   .media {
+     img {
+       width: 87px;
+       height: 75px;
+     }
+     h5 {
+       font-size: 16px;
+       font-weight: 400;
+       font-family: 'Fira Sans', sans-serif;
+       color: #2E2E2E;
+     }
+   }
+ }
 //user-rating-card styling end
 
 //rating stars css start
@@ -459,4 +459,8 @@ button.btn {
   margin-bottom: 60px;
 }
 //static pages styling end
+
+
+//Rating card
+
 

@@ -500,8 +500,30 @@ q {
   }
 }
 .blog-card {
+  margin-bottom: 100px;
   img {
     margin-bottom: 10px;
+  }
+  .blog-card-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    .event-icon {
+      background: #fff;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      outline: none;
+      border: none;
+      padding: 5px 5px;
+      &:first-child {
+      }
+      i.material-icons {
+        font-size: 19px;
+        vertical-align: middle;
+        line-height: 15px;
+      }
+    }
   }
   .b-card-body {
     h2 {
@@ -528,6 +550,37 @@ q {
       color: #888888;
     }
 
+  }
+  .owl-carousel {
+    .owl-nav {
+      width: 100%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+    }
+    button:focus {
+      outline: none !important;
+    }
+    button.owl-prev {
+      vertical-align: sub;
+      background: #fff;
+      padding: 15px 15px !important;
+      border-radius: 50%;
+      font-size: 30px;
+      margin-left: 8px;
+      line-height: 7px;
+    }
+    button.owl-next {
+      float: right;
+      margin-right: 8px;
+      background: #fff;
+      padding: 15px 15px !important;
+      border-radius: 50%;
+      font-size: 30px;
+      line-height: 7px;
+      vertical-align: sub;
+    }
   }
 }
 //Eyelashes page and listing styling End
