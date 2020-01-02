@@ -381,9 +381,7 @@ q {
     img {
       margin-bottom: 0px;
     }
-    .custom-control {
-      padding-left: 15px;
-    }
+
     .custom-control-label::after {
       width: 15px;
       height: 15px;
@@ -392,11 +390,8 @@ q {
       width: 15px;
       height: 15px;
     }
-    .custom-checkbox .custom-control-input:checked~.custom-control-label::after {
-      background-size: 10px;
-    }
-  }
 
+  }
   p {
     font-size: 16px;
     font-weight: 400;
@@ -405,6 +400,8 @@ q {
     color: #BEBEBE;
   };
 }
+
+
                 //payment method card css end
 
 //booking details styling end
@@ -584,6 +581,64 @@ q {
   }
 }
 //Eyelashes page and listing styling End
+
+//Review section
+.nav-link.therapists-nav-navtab {
+  border-bottom: none;
+}
+
+.nav-link.therapists-navlink {
+  border: none;
+  color: #656565 ;
+  font-size: 20px;
+  width: 9rem;
+  text-align: center;
+}
+
+.nav-link.therapists-navlink.active {
+  color: #FF9797;
+  background-color: #fff;
+  border-bottom: 1px #FF9797 solid;
+  font-size: 20px;
+}
+
+.book-modal-content-header {
+  background: transparent;
+  border: none;
+}
+.container-saloon-img1 {
+  position: relative;
+  .saloon-top-left {
+    position: absolute;
+    top: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    h2 {
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 28px;
+      font-weight: 500;
+      letter-spacing: 0;
+      margin-bottom: 6px;
+      color: #585858;
+    }
+
+    p {
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0;
+      color: #777777;
+      margin-bottom: 20px;
+    }
+    button {
+      font-size: 16px;
+    }
+  }
+}
+/* Top left text */
+
+//Review section End
 
 .footer {
   background: transparent linear-gradient(0deg, #F8D7C7 0%, #F6CDD6 76%, #F6CDD6 100%) 0% 0% no-repeat padding-box;

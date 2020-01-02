@@ -316,16 +316,12 @@ q:before, q:after {
     padding: 0 10px; }
     .payment-card.mini-card img {
       margin-bottom: 0px; }
-    .payment-card.mini-card .custom-control {
-      padding-left: 15px; }
     .payment-card.mini-card .custom-control-label::after {
       width: 15px;
       height: 15px; }
     .payment-card.mini-card .custom-control-label::before {
       width: 15px;
       height: 15px; }
-    .payment-card.mini-card .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
-      background-size: 10px; }
   .payment-card p {
     font-size: 16px;
     font-weight: 400;
@@ -461,6 +457,52 @@ q:before, q:after {
     line-height: 7px;
     vertical-align: sub; }
 
+.nav-link.therapists-nav-navtab {
+  border-bottom: none; }
+
+.nav-link.therapists-navlink {
+  border: none;
+  color: #656565;
+  font-size: 20px;
+  width: 9rem;
+  text-align: center; }
+
+.nav-link.therapists-navlink.active {
+  color: #FF9797;
+  background-color: #fff;
+  border-bottom: 1px #FF9797 solid;
+  font-size: 20px; }
+
+.book-modal-content-header {
+  background: transparent;
+  border: none; }
+
+.container-saloon-img1 {
+  position: relative; }
+  .container-saloon-img1 .saloon-top-left {
+    position: absolute;
+    top: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%; }
+    .container-saloon-img1 .saloon-top-left h2 {
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 28px;
+      font-weight: 500;
+      letter-spacing: 0;
+      margin-bottom: 6px;
+      color: #585858; }
+    .container-saloon-img1 .saloon-top-left p {
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0;
+      color: #777777;
+      margin-bottom: 20px; }
+    .container-saloon-img1 .saloon-top-left button {
+      font-size: 16px; }
+
+/* Top left text */
 .footer {
   background: transparent linear-gradient(0deg, #F8D7C7 0%, #F6CDD6 76%, #F6CDD6 100%) 0% 0% no-repeat padding-box;
   box-shadow: 0px -3px 10px #0000000A;

@@ -1,0 +1,575 @@
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: "Fira Sans", sans-serif !important;
+}
+
+
+#container {
+	/*min-height:100%;*/
+	min-height: 90%;
+	position: relative;
+}
+
+
+#header {
+	/*background:#ff0;*/
+	/*padding:10px;*/
+}
+
+
+#body {
+
+	padding-bottom: 60px; /* Height of the footer */
+}
+
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px; /* Height of the footer */
+	background: #6cf;
+}
+
+
+/*header start*/
+.header-login-btn {
+	background: linear-gradient(to bottom, #f6ced5 0%, #f8d6c8 100%);
+	padding: 7px !important;
+	width: 6rem;
+	border-radius: 25px !important;
+	text-align: center !important;
+	color: white !important;
+}
+
+
+.header-link {
+	color: #676767;
+	font-size: 18px;
+}
+
+
+/*header end*/
+
+/*other start*/
+.mapouter {
+	position: relative;
+	text-align: right;
+	height: 500px;
+	width: 100%;
+}
+
+
+.gmap_canvas {
+	overflow: hidden;
+	background: none !important;
+	/*height: 500px;*/
+	width: 100%;
+}
+
+
+.mona-lina-text {
+	color: #FF9797;
+}
+
+
+.mona-lisa-background {
+	background-color: #FF9797 !important;
+}
+
+
+/*other end*/
+
+/*footer start*/
+.footer-section {
+	background: linear-gradient(to bottom, #f6ced5 0%, #f8d6c8 100%);
+	padding-top: 3rem;
+	padding-bottom: 0.5rem;
+}
+
+
+.footer-pics {
+	width: 5rem;
+	height: 5rem;
+	object-fit: cover;
+}
+
+
+/*footer end*/
+
+/*Home - 7 start*/
+.container-home-7 {
+	position: relative;
+	/*text-align: center;*/
+	/*color: white;*/
+}
+
+
+/* Centered text */
+@media screen and (min-width: 992px) {
+	.top-left-home-7 {
+		/*position: absolute;*/
+		/*top: 8px;*/
+		/*left: 16px;*/
+		margin-top: -20rem;
+	}
+
+	.top-left-home-3 {
+		/*position: absolute;*/
+		/*top: 8px;*/
+		/*left: 16px;*/
+		margin-top: -17rem;
+	}
+
+	.home-7-main-img-sett {
+		width: 100%;
+		max-height: 404px;
+		object-fit: cover;
+	}
+
+	.home-3-main-img-sett {
+		width: 100%;
+		max-height: 404px;
+		object-fit: cover;
+	}
+}
+
+
+@media screen and (max-width: 992px) {
+	.top-left-home-7 {
+		/*position: absolute;*/
+		/*top: 8px;*/
+		/*left: 16px;*/
+		margin-top: -23rem;
+	}
+
+	.top-left-home-3 {
+		/*position: absolute;*/
+		/*top: 8px;*/
+		/*left: 16px;*/
+		margin-top: -23rem;
+	}
+
+	.home-7-main-img-sett {
+		width: 100%;
+		min-height: 31rem;
+		object-fit: cover;
+	}
+
+	.home-3-main-img-sett {
+		width: 100%;
+		min-height: 31rem;
+		object-fit: cover;
+	}
+}
+
+
+.home-7-treatment {
+	font-weight: 500;
+	/*text-decoration: underline;*/
+	/* padding: 0px; */
+	cursor: pointer;
+}
+
+
+/*Home - 7 end*/
+
+/*Home - 5 start*/
+.home-5-img-sett {
+	min-width: 100%;
+	max-height: 456px;
+	object-fit: cover;
+}
+
+
+/*Home - 5 end*/
+
+@media screen and (min-width: 1700px) {
+
+	.top-left-home-3 {
+		/*position: absolute;*/
+		/*top: 8px;*/
+		/*left: 16px;*/
+		margin-top: -20rem;
+	}
+
+	.home-3-main-img-sett {
+		width: 100%;
+		max-height: 404px;
+		object-fit: cover;
+	}
+}
+
+
+@media screen and (max-width: 1700px) {
+
+	.top-left-home-3 {
+		/*position: absolute;*/
+		/*top: 8px;*/
+		/*left: 16px;*/
+		margin-top: -18rem;
+	}
+
+	.home-3-main-img-sett {
+		width: 100%;
+		min-height: 318px;
+		object-fit: cover;
+	}
+}
+
+
+.home-3-btn-select {
+	background-color: #68889E;
+	color: #FFF;
+	border-color: #2F3E48;
+	cursor: pointer;
+}
+
+
+.home-3-btn-select:focus, .home-3-btn-select:active, .home-3-btn-select.active, .open .dropdown-toggle.home-3-btn-select {
+
+	background-color: #121C5E !important;
+	color: #FFF !important;
+	border-color: #121C5E;
+
+}
+
+
+.home-3-rating-checked {
+	color: #FF9797;
+}
+
+
+.home-3-rating-unchecked {
+	color: white;
+}
+
+
+.home-3-salon-img {
+	min-width: 100%;
+	object-fit: cover;
+	max-height: 17rem;
+}
+
+
+.home-3-service-name {
+	color: #686868;
+	font-size: 18px;
+}
+
+
+.home-3-service-time {
+	color: #A7A7A7;
+}
+
+
+.home-3-service-price {
+	font-size: 20px;
+}
+
+
+button[aria-expanded=true] .fa-chevron-right {
+	display: none;
+	color: #FF9797;
+}
+
+
+button[aria-expanded=false] .fa-chevron-down {
+	display: none;
+	color: #FF9797;
+}
+
+
+/*.faq-collapse-btn {*/
+/*	width: 100%;*/
+/*	color: #FF9797 !important;*/
+/*	text-decoration: none !important;*/
+/*}*/
+
+.home-3-collapse-btn {
+	width: 100%;
+	color: #FF9797 !important;
+	text-decoration: none !important;
+}
+
+
+.bar {
+	list-style: none;
+}
+
+
+.bar > li {
+	position: relative;
+}
+
+
+.bar > li:before {
+	content: '\25CF';
+	margin-right: 9px;
+	font-size: 20px;
+}
+
+
+.bar > li:after {
+	position: absolute;
+	left: 49px;
+	top: 0;
+	content: '';
+	border-left: 2px solid black;
+	margin-left: 5px;
+	/* height: 100%; */
+	height: 22rem;
+}
+
+
+.bar > li:first-of-type:after {
+	top: 50%;
+}
+
+
+.bar > li:last-of-type:after {
+	top: -50%;
+}
+
+
+.home-3-close-text-color {
+	color: #A5A5A5;
+}
+
+
+/*saloon start*/
+.saloon-carasoul-img {
+	min-height: 27rem;
+	object-fit: cover;
+}
+
+
+.saloon-right-left-carasoul-span {
+	height: 40px !important;
+	position: absolute !important;
+	top: 50%;
+	margin-top: -24px;
+	background-color: rgba(0, 0, 0, .6);
+	border: none;
+	border-radius: 4px;
+	outline: none;
+}
+
+
+.saloon-carasoul-caption-img {
+	min-width: 101%;
+	position: relative;
+	top: -13px;
+}
+
+
+.saloon-carasoul-caption-img1 {
+	min-width: 100%;
+	margin-top: -22px;
+}
+
+
+/* Container holding the image and the text */
+
+@media screen and (min-width: 768px) {
+	.saloon-carasoul-caption-img1-query {
+		height: 11rem !important;
+	}
+}
+@media screen and (max-width: 768px) {
+
+	.saloon-carasoul-caption-img1-query {
+		height: 14rem !important;
+	}
+}
+.saloon-review-img {
+	width: 4rem;
+	height: 4rem;
+	object-fit: cover;
+}
+.saloon-black-card-table {
+	background-color: #313133 !important;
+	border-radius: 5px !important;
+}
+/*saloon end*/
+/*Therapists about start*/
+
+.modal-button {
+	background: linear-gradient(to bottom, #f6ced5 0%, #f8d6c8 100%);
+	width: 7rem;
+	color: white !important;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+/*Therapists about end*/
+
+/*header after login start*/
+.header-after-login-img {
+	width: 3rem;
+	height: 3rem;
+	object-fit: cover;
+	margin-right: 27px;
+}
+.carousel-caption {
+	top: -16px !important;
+	left: 67% !important;
+	bottom: auto;
+	color: unset !important;
+}
+/*header after login end*/
+.toggle-heart {
+	position: absolute;
+	left: -100vw;
+	cursor: pointer;
+}
+.toggle-heart:checked + label {
+	color: #FF7272;
+}
+[for='toggle-heart'] {
+	align-self: center;
+	color: #FF7272;
+	/* font-size: 1.5em; */
+	cursor: pointer;
+	height: 1px;
+}
+.pointer-cursor {
+	cursor: pointer;
+}
+/*booking-2 start*/
+.booking-2-select-therapists-img {
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	border-radius: 100%;
+}
+ul .booking-2-selectui {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+ul li {
+	/*border: 1px solid #ddd;*/
+	/*margin-top: -1px; */
+	/*background-color: #f6f6f6;*/
+	/*padding: 12px;*/
+	/*text-decoration: none;*/
+	/*font-size: 18px;*/
+	/*color: black;*/
+	display: block;
+	position: relative;
+}
+.booking-2-select-li {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-bottom: 1px #DEDEDE solid;
+
+	/*background-color: #eee;*/
+}
+.close {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	padding: 12px 16px;
+	transform: translate(0%, -50%);
+}
+.booking-2-close {
+	float: right;
+	font-size: 16px !important;
+	font-weight: 100 !important;
+	line-height: 0 !important;
+	color: #535353 !important;
+	text-shadow: none !important;
+	opacity: unset !important;
+}
+
+
+/*.close:hover {background: #bbb;}*/
+/*booking-2 end*/
+
+/*create account 5 start*/
+.custom-control-input:checked~.custom-control-label::before {
+	border-color: #FF9797 !important;
+	background-color:#FF9797 !important;
+}
+.create-account-5-input{
+	border-radius: 0px !important;
+	height: 3rem !important;
+
+}
+/*create account 5 end*/
+
+/*privacy start*/
+ .privacy-link{
+	background-color: #FFEEEE !important;
+	color: black !important;
+	font-size: 18px !important;
+	 margin-top: 2px;
+	 margin-bottom: 2px;
+	 height: 4rem;
+}
+/*privacy end*/
+
+/*booking 2 start */
+.booking-2 .li:hover{
+	background-color: #F7F7F7;
+	cursor: pointer;
+}
+.booking-2-select-btn{
+	background-color: white !important;
+}
+ .booking-2-select-btn:focus{
+	background-color: #FF9797 !important;
+	color: white !important;
+}
+/*booking 2 end */
+
+/*profile-1 start*/
+.profile-1-profile-img{
+	min-width: 100%;
+	/* height: 15rem; */
+	height: 162px !important;
+	object-fit: cover;
+}
+.profile-1-nav-link{
+	color: #676767 !important;
+	background:transparent !important;
+	border: none !important;
+}
+.profile-1-nav-link.active{
+	color: #676767 !important;
+	background:transparent !important;
+	border-bottom: 1px #FF9797 solid !important;
+	border-top: none !important;
+	border-right: none !important;
+	border-left: none !important;
+}
+.profile-1-right-single-row{
+	border-top: 3px #E1E1E1 solid;
+	border-bottom: 1px #B5B5B5 solid;
+	cursor: pointer;
+	margin-top: 10px;
+}
+/*profile-1 end*/
+
+/*profile-2 start*/
+.profile-2-active-btn{
+	color: white !important;
+	outline: none;
+	box-shadow: none;
+	background-color: #FF9797 !important;
+	cursor: default !important;
+}
+.profile-2-deactive-btn{
+	background-color: white;
+	color: #EDEDED !important;
+	cursor: default !important;
+}
+
+/*profile-2 end*/
+
+
