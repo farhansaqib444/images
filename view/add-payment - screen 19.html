@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Payment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="../style/dynamic-style.css">
+  <link rel="stylesheet" href="../style/style.css">
+
+</head>
+<body>
+  <div class="header">
+  <div class="container">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a href="#" class="navbar-brand">
+        <img src="../images/pamper-logo.png" alt="pamper-logo">
+      </a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+        <div class="navbar-nav">
+          <a href="#" class="nav-item nav-link active">Home</a>
+          <a href="#" class="nav-item nav-link">About Us</a>
+          <a href="#" class="nav-item nav-link">News</a>
+          <a href="#" class="nav-item nav-link">Contact Us</a>
+          <a href="#" class="nav-item nav-link login-btn text-white d-none">Login</a>
+          <a href="nav-item"><img src="../images/Ellipse.png" alt=""></a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+  <div class="container payment-page">
+     <div class="row">
+       <div class="col-md-7">
+         <h2 class="font-20 mb-4">
+           Add Payment Method
+         </h2>
+         <div class="row">
+           <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+             <div class="payment-card mb-3">
+               <div>
+                 <img src="../images/paypal.png" alt="">
+                 <p>nicolas.griffin@mail.com</p>
+               </div>
+               <div>
+                 <div class="custom-control custom-checkbox">
+                   <input type="checkbox" class="custom-control-input" id="paypalCheck" name="example1">
+                   <label class="custom-control-label" for="paypalCheck"></label>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+             <div class="payment-card mb-3">
+               <div>
+                 <img src="../images/apple-pay.png" alt="">
+                 <p>nicolas.griffin@mail.com</p>
+               </div>
+               <div>
+                 <div class="custom-control custom-checkbox">
+                   <input type="checkbox" class="custom-control-input" id="appleCheck" name="example1">
+                   <label class="custom-control-label" for="appleCheck"></label>
+                 </div>
+               </div>
+             </div>
+           </div>
+           <div class="col-12 mt-4">
+             <button class="btn btn-primary btn-lg">Select</button>
+           </div>
+         </div>
+       </div>
+       <div class="col-md-5">
+         <div class="total-payment-card">
+           <ul class="">
+             <li>
+               <div class="row w-100 border-between appointment-time mb-4">
+                 <div class="col-md-6 col-sm-6 mb-3">
+                   <h3>2:30 PM</h3>
+                 </div>
+                 <div class="col-md-6 col-sm-6 mb-3">
+                   <p>4 October</p>
+                   <p>Friday</p>
+                 </div>
+               </div>
+             </li>
+             <li>
+               <span>Belle Curls</span>
+             </li>
+             <li>
+               <span>Brow Wax</span><span>£ 30</span>
+             </li>
+             <li class="total-amount">
+               <span>Order total</span><span>£ 30</span>
+             </li>
+             <li class="user-list">
+               <span>Employee</span><span>Marilyn</span>
+             </li>
+           </ul>
+         </div>
+       </div>
+     </div>
+   </div>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="footer-widget">
+            <h3 class="widget-title">Navigation</h3>
+            <div class="widget-content">
+              <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Term & Conditions</a></li>
+                <li><a href="">Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="footer-widget">
+            <h3 class="widget-title">Search</h3>
+            <div class="widget-content">
+              <div class="input-group md-form form-sm form-2 pl-0 mb-4">
+                <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search">
+                <div class="input-group-append">
+                  <span class="input-group-text red lighten-3" id="basic-text1">
+                    <i class="material-icons">search</i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="social-media">
+              <a href=""><img src="../images/twitter.png" alt="twitter"></a>
+              <a href=""><img src="../images/facebook.png" alt="facebook"></a>
+              <a href=""><img src="../images/twitter.png" alt="twitter"></a>
+            </div>
+            <div class="apps-button-group">
+              <a href="#">
+                <img src="../images/app-store.png" alt="app-store">
+              </a>
+              <a href="#">
+                <img src="../images/play-store.png" alt="app-store">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="footer-widget">
+            <h3 class="widget-title">Latest Salon</h3>
+            <div class="widget-content">
+              <div class="row gallery">
+                <div class="col-md-4">
+                  <a href=""><img src="../images/mask.png" class="img-fluid" alt="mask"></a>
+                </div>
+                <div class="col-md-4">
+                  <a href=""><img src="../images/mask1.png" class="img-fluid" alt="mask"></a>
+                </div>
+                <div class="col-md-4">
+                  <a href=""><img src="../images/mask2.png" class="img-fluid" alt="mask"></a>
+                </div>
+                <div class="col-md-4">
+                  <a href=""><img src="../images/mask3.png" class="img-fluid" alt="mask"></a>
+                </div>
+                <div class="col-md-4">
+                  <a href=""><img src="../images/mask4.png" class="img-fluid" alt="mask"></a>
+                </div>
+                <div class="col-md-4">
+                  <a href=""><img src="../images/mask5.png" class="img-fluid" alt="mask"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col bottom-footer mt-5">
+          <p class="copy-right">
+            © 2019 Pampr Limited
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="../javascript/javascript.js"></script>
+</body>
+</html>
