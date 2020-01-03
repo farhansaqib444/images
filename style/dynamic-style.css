@@ -63,6 +63,29 @@ a:hover {
   text-decoration: none;
   cursor: pointer; }
 
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: none !important; }
+
+.funnel-group {
+  display: inline-flex;
+  border-radius: 5px; }
+  .funnel-group.btn-group-lg .btn {
+    padding: 12px 40px; }
+  .funnel-group .btn:first-child {
+    border-radius: 5px 0px  0px 5px; }
+  .funnel-group .btn:last-child {
+    border-radius: 0px 5px 5px 0px; }
+  .funnel-group .btn:nth-child(2) {
+    border-right: 1px solid #DFDFDF;
+    border-left: 1px solid #DFDFDF;
+    border-radius: 0; }
+  .funnel-group .btn:focus {
+    outline: 0;
+    box-shadow: none; }
+  .funnel-group .btn-group .btn + .btn, .funnel-group .btn-group .btn + .btn-group, .funnel-group .btn-group .btn-group + .btn, .funnel-group .btn-group .btn-group + .btn-group, .funnel-group .btn-group-vertical .btn + .btn, .funnel-group .btn-group-vertical .btn + .btn-group, .funnel-group .btn-group-vertical .btn-group + .btn, .funnel-group .btn-group-vertical .btn-group + .btn-group {
+    margin-left: 0px; }
+
 button.btn {
   outline: none;
   border: 0;
@@ -87,7 +110,8 @@ button.btn {
   font-size: 16px;
   font-family: 'Fira Sans', sans-serif;
   letter-spacing: 0;
-  color: #545454; }
+  color: #545454;
+  background-color: #fff; }
   .btn-white i {
     float: left;
     color: #313133; }
@@ -473,5 +497,40 @@ button.btn {
       color: #9F9F9F; }
       .opening-hours ul li:last-child span {
         color: #9F9F9F; }
+
+.full-map-card {
+  margin-bottom: 50px; }
+  .full-map-card .full-map-body {
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 5px 5px;
+    padding: 50px 30px;
+    margin-top: -10px; }
+
+.price-card {
+  background: #FBF8F8 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  padding: 15px 0; }
+  .price-card ul li {
+    border-bottom: 1px solid #E2E2E2;
+    padding: 0 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px; }
+    .price-card ul li:last-child {
+      border-bottom: 0; }
+    .price-card ul li span {
+      font-size: 18px;
+      font-weight: 400;
+      font-family: 'Fira Sans', sans-serif;
+      letter-spacing: 0;
+      color: #818181; }
+    .price-card ul li span:last-child {
+      font-weight: 500;
+      color: #2E2E2E; }
+
+@media (min-width: 768px) {
+  .price-card ul li {
+    padding: 0 70px 0 70px; } }
 
 /*# sourceMappingURL=dynamic-style.css.map */

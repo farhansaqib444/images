@@ -376,15 +376,11 @@ button[aria-expanded=false] .fa-chevron-down {
 /* Container holding the image and the text */
 
 @media screen and (min-width: 768px) {
-	.saloon-carasoul-caption-img1-query {
-		height: 11rem !important;
-	}
+
 }
 @media screen and (max-width: 768px) {
 
-	.saloon-carasoul-caption-img1-query {
-		height: 14rem !important;
-	}
+
 }
 .saloon-review-img {
 	width: 4rem;

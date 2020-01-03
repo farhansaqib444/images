@@ -477,30 +477,35 @@ q:before, q:after {
   background: transparent;
   border: none; }
 
-.container-saloon-img1 {
+.salon-page .container-saloon-img1 {
   position: relative; }
-  .container-saloon-img1 .saloon-top-left {
+  .salon-page .container-saloon-img1 .saloon-top-left {
     position: absolute;
     top: 8px;
-    padding-right: 15px;
-    padding-left: 15px;
-    width: 100%; }
-    .container-saloon-img1 .saloon-top-left h2 {
+    width: 100%;
+    padding: 35px 15px; }
+    .salon-page .container-saloon-img1 .saloon-top-left h2 {
       font-family: 'Fira Sans', sans-serif;
       font-size: 28px;
       font-weight: 500;
       letter-spacing: 0;
       margin-bottom: 6px;
       color: #585858; }
-    .container-saloon-img1 .saloon-top-left p {
+    .salon-page .container-saloon-img1 .saloon-top-left p {
       font-family: 'Fira Sans', sans-serif;
       font-size: 16px;
       font-weight: 400;
       letter-spacing: 0;
       color: #777777;
       margin-bottom: 20px; }
-    .container-saloon-img1 .saloon-top-left button {
+    .salon-page .container-saloon-img1 .saloon-top-left button {
       font-size: 16px; }
+.salon-page .funnel-group {
+  position: absolute;
+  right: 15px;
+  bottom: -15px;
+  z-index: 9;
+  box-shadow: 0px 0px 3px #00000087; }
 
 /* Top left text */
 .footer {
@@ -576,6 +581,15 @@ q:before, q:after {
 @media (min-width: 768px) {
   .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 25px;
-    padding-left: 25px; } }
+    padding-left: 25px; }
+
+  .saloon-carasoul-caption-img1-query {
+    height: 15rem !important; } }
+@media (max-width: 767px) {
+  .saloon-carasoul-caption-img1-query {
+    height: 18rem !important; }
+
+  .funnel-group.btn-group-lg .btn {
+    padding: 12px 20px; } }
 
 /*# sourceMappingURL=style.css.map */
