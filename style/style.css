@@ -464,18 +464,15 @@ q:before, q:after {
   border: none;
   color: #656565;
   font-size: 20px;
-  width: 9rem;
-  text-align: center; }
-
-.nav-link.therapists-navlink.active {
-  color: #FF9797;
-  background-color: #fff;
-  border-bottom: 1px #FF9797 solid;
-  font-size: 20px; }
-
-.book-modal-content-header {
-  background: transparent;
-  border: none; }
+  text-align: center;
+  padding: 0 30px;
+  margin: 0; }
+  .nav-link.therapists-navlink.active {
+    color: #FF9797;
+    background-color: #fff;
+    border-bottom: 1px #FF9797 solid;
+    font-size: 20px;
+    padding-bottom: 5px; }
 
 .salon-page .container-saloon-img1 {
   position: relative; }

@@ -51,7 +51,6 @@ p, label, span{
 .form-control:focus {
   color:#495057;
   background-color:#fff;
-  border: none;
   outline: 0;
   box-shadow: none;
 }
@@ -203,6 +202,7 @@ button.btn {
     margin: 0 auto;
     p {
       color: #616161;
+      line-height: 40px;
     }
   }
 }
@@ -631,7 +631,62 @@ button.btn {
     }
   }
 }
+.salon-modal {
+  background: transparent;
+  border: none;
+  .modal-header {
+    padding: 0;
+    .close {
+      position: absolute;
+      top: -35px;
+      z-index: 9;
+      padding: 0;
+      background-color: transparent;
+      margin: 0;
+      border-radius: 50%;
+      opacity: 1;
+    }
+  }
+  .modal-body {
+    background-color: #fff;
+    padding: 15px 15px;
+    .form-group .form-control {
+      padding: 5px 0;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: 'Fira Sans', sans-serif;
+      letter-spacing: 0;
+      color: #AFAFAF;
+      &::-webkit-input-placeholder { /* Edge */
+        color: #AFAFAF;
+        font-weight: 400;
+      }
 
+      &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: #AFAFAF;
+        font-weight: 400;
+      }
+
+      &::placeholder {
+        color: #AFAFAF;
+        font-weight: 400;
+      }
+    }
+  }
+  .modal-footer {
+    background-color: #fff;
+    border-top: 0;
+    justify-content: center;
+    flex-direction: column;
+    .btn {
+      padding: 10px 55px;
+      &.btn-primary {
+        background: transparent linear-gradient(90deg, #F8D7C7 0%, #F6CDD6 51%, #F6CDD6 100%) 0% 0% no-repeat padding-box;
+      }
+    }
+
+  }
+}
 @media (min-width: 768px) {
   .price-card {
     ul {
@@ -640,5 +695,17 @@ button.btn {
       }
     }
   }
+  .salon-modal {
+    .modal-body {
+      padding: 30px 60px;
+    }
+  }
 }
 
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 600px;
+    margin: 1.75rem auto;
+  }
+
+}

@@ -591,20 +591,16 @@ q {
   border: none;
   color: #656565 ;
   font-size: 20px;
-  width: 9rem;
   text-align: center;
-}
-
-.nav-link.therapists-navlink.active {
-  color: #FF9797;
-  background-color: #fff;
-  border-bottom: 1px #FF9797 solid;
-  font-size: 20px;
-}
-
-.book-modal-content-header {
-  background: transparent;
-  border: none;
+  padding: 0 30px;
+  margin: 0;
+  &.active {
+    color: #FF9797;
+    background-color: #fff;
+    border-bottom: 1px #FF9797 solid;
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
 }
 .salon-page {
   .container-saloon-img1 {
@@ -647,7 +643,6 @@ q {
 /* Top left text */
 
 //Review section End
-
 .footer {
   background: transparent linear-gradient(0deg, #F8D7C7 0%, #F6CDD6 76%, #F6CDD6 100%) 0% 0% no-repeat padding-box;
   box-shadow: 0px -3px 10px #0000000A;

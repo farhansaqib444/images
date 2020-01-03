@@ -51,7 +51,6 @@ p, label, span {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border: none;
   outline: 0;
   box-shadow: none; }
 
@@ -183,7 +182,8 @@ button.btn {
     width: 100%;
     margin: 0 auto; }
     .section-title.abstract-title p {
-      color: #616161; }
+      color: #616161;
+      line-height: 40px; }
 
 .section-label {
   font-size: 20px;
@@ -529,8 +529,60 @@ button.btn {
       font-weight: 500;
       color: #2E2E2E; }
 
+.salon-modal {
+  background: transparent;
+  border: none; }
+  .salon-modal .modal-header {
+    padding: 0; }
+    .salon-modal .modal-header .close {
+      position: absolute;
+      top: -35px;
+      z-index: 9;
+      padding: 0;
+      background-color: transparent;
+      margin: 0;
+      border-radius: 50%;
+      opacity: 1; }
+  .salon-modal .modal-body {
+    background-color: #fff;
+    padding: 15px 15px; }
+    .salon-modal .modal-body .form-group .form-control {
+      padding: 5px 0;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: 'Fira Sans', sans-serif;
+      letter-spacing: 0;
+      color: #AFAFAF; }
+      .salon-modal .modal-body .form-group .form-control::-webkit-input-placeholder {
+        /* Edge */
+        color: #AFAFAF;
+        font-weight: 400; }
+      .salon-modal .modal-body .form-group .form-control:-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: #AFAFAF;
+        font-weight: 400; }
+      .salon-modal .modal-body .form-group .form-control::placeholder {
+        color: #AFAFAF;
+        font-weight: 400; }
+  .salon-modal .modal-footer {
+    background-color: #fff;
+    border-top: 0;
+    justify-content: center;
+    flex-direction: column; }
+    .salon-modal .modal-footer .btn {
+      padding: 10px 55px; }
+      .salon-modal .modal-footer .btn.btn-primary {
+        background: transparent linear-gradient(90deg, #F8D7C7 0%, #F6CDD6 51%, #F6CDD6 100%) 0% 0% no-repeat padding-box; }
+
 @media (min-width: 768px) {
   .price-card ul li {
-    padding: 0 70px 0 70px; } }
+    padding: 0 70px 0 70px; }
+
+  .salon-modal .modal-body {
+    padding: 30px 60px; } }
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 600px;
+    margin: 1.75rem auto; } }
 
 /*# sourceMappingURL=dynamic-style.css.map */
