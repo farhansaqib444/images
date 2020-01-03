@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Therapist about 12</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -40,69 +41,20 @@
 <div id="body">
   <div class="container">
 <!--Carousel Wrapper Start-->
-    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel" data-interval="false">
-      <div class="carousel-inner" role="listbox">
-        <!--First slide-->
-        <div class="carousel-item active">
-          <div class="row">
-            <div class="col-md-6 ">
-              <img class="img-fluid saloon-carasoul-img"
-                   src="../images/Mask%20Group%20195.png"
-                   alt="Card image cap">
-            </div>
-
-            <div class="col-md-6 ">
-              <img class="img-fluid saloon-carasoul-img"
-                   src="../images/Mask%20Group%20197.png"
-                   alt="Card image cap">
-            </div>
-
-
-          </div>
-          <div>
-            <img src="../images/Path%20364.png" class="img-fluid saloon-carasoul-caption-img">
-
-          </div>
+    <div class="">
+      <div class="banner-carousel owl-carousel">
+        <div>
+          <img class="img-fluid"
+               src="../images/Mask%20Group%20195.png" alt="Card image cap">
         </div>
-        <!--/.First slide-->
-        <!--Second slide-->
-        <div class="carousel-item">
-          <div class="row">
-            <div class="col-md-6 ">
-              <img class="img-fluid saloon-carasoul-img"
-                   src="../images/Mask%20Group%20197.png"
-                   alt="Card image cap">
-            </div>
-
-            <div class="col-md-6 ">
-              <img class="img-fluid saloon-carasoul-img"
-                   src="../images/Mask%20Group%20197.png"
-                   alt="Card image cap">
-            </div>
-
-
-          </div>
-          <div>
-            <img src="../images/Path%20364.png" class="img-fluid saloon-carasoul-caption-img">
-
-          </div>
-
+        <div>
+          <img class="img-fluid"
+               src="../images/Mask%20Group%20197.png"
+               alt="Card image cap">
         </div>
-        <!--/.Second slide-->
-
-        <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only saloon-right-left-carasoul-span">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#multi-item-example" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only saloon-right-left-carasoul-span">Next</span>
-        </a>
-        <!--/.Slides-->
-
       </div>
-
     </div>
+
     <div class="container-saloon-img1">
       <img src="../images/Path%20359.png" class="saloon-carasoul-caption-img1-query img-fluid saloon-carasoul-caption-img1">
       <div class="saloon-top-left">
@@ -143,7 +95,7 @@
 <!--Carousel Wrapper End-->
 
 <!--    tab Start-->
-    <div style="border-bottom: 1px solid #FF9797;" class="row pt-5 pb-5 mb-5">
+    <div class="row pt-5 pb-5 mb-5">
       <div class="col-sm-12 col-md-7">
         <ul class="nav nav-tabs therapists-nav-navtab" id="myTab" role="tablist">
           <li class="nav-item pl-5 pr-5 ">
@@ -522,28 +474,36 @@
   </div>
 </div>
 <!--    tab End-->
-
-    <div class="d-flex justify-content-center align-items-center"  style="border-bottom: 1px solid #FF9797;" >
-      <div class="user-rating-card user-card-lg rounded-circle mb-0">
-        <div class="media">
-          <img class="mr-3 rounded-circle" src="../images/user-rating.png" alt="user-rating">
-          <div class="media-body align-self-center">
-            <h5 class="mt-0">Carmen Brewer</h5>
-            <div class="rating">
-              <input type="radio" id="star5" name="rating" value="5"><label for="star5" title="Meh">5 stars</label>
-              <input type="radio" id="star4" name="rating" value="4"><label for="star4" title="Kinda bad">4 stars</label>
-              <input type="radio" id="star3" name="rating" value="3"><label for="star3" title="Kinda bad">3 stars</label>
-              <input type="radio" id="star2" name="rating" value="2"><label for="star2" title="Sucks big tim">2 stars</label>
-              <input type="radio" id="star1" name="rating" value="1"><label for="star1" title="Sucks big time">1 star</label>
-            </div>
-            <span class="font-500">5.0</span>
-            <div class="">
-              <button class="btn btn-transparent font-500 font-18 my-3 px-5">View</button>
+  </div>
+  <div class="pt-5" style="border-top: 1px solid #FF9797; border-bottom: 1px solid #FF9797;">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="user-rating-card user-card-lg rounded-circle mb-0">
+              <div class="media">
+                <img class="mr-3 rounded-circle" src="../images/user-rating.png" alt="user-rating">
+                <div class="media-body align-self-center">
+                  <h5 class="mt-0">Carmen Brewer</h5>
+                  <div class="rating">
+                    <input type="radio" id="star5" name="rating" value="5"><label for="star5" title="Meh">5 stars</label>
+                    <input type="radio" id="star4" name="rating" value="4"><label for="star4" title="Kinda bad">4 stars</label>
+                    <input type="radio" id="star3" name="rating" value="3"><label for="star3" title="Kinda bad">3 stars</label>
+                    <input type="radio" id="star2" name="rating" value="2"><label for="star2" title="Sucks big tim">2 stars</label>
+                    <input type="radio" id="star1" name="rating" value="1"><label for="star1" title="Sucks big time">1 star</label>
+                  </div>
+                  <span class="font-500">5.0</span>
+                  <div class="">
+                    <button class="btn btn-transparent font-500 font-18 my-3 px-5">View</button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
   </div>
 </div>
 <div class="footer">
@@ -636,19 +596,37 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
 <script>
   $(document).ready(function(){
-    $(".owl-carousel").owlCarousel({
+    // $(".owl-carousel").owlCarousel({
+    //   loop:true,
+    //   nav: true,
+    //   dot:true,
+    //   responsive:{
+    //     0:{
+    //       items:1
+    //     },
+    //     600:{
+    //       items:1
+    //     },
+    //     1000:{
+    //       items:1
+    //     }
+    //   }
+    // });
+    $(".banner-carousel").owlCarousel({
       loop:true,
       nav: true,
       dot:true,
+      margin: 20,
+      autoHeight : true,
       responsive:{
         0:{
           items:1
         },
         600:{
-          items:1
+          items:2
         },
         1000:{
-          items:1
+          items:2
         }
       }
     });
