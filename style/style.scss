@@ -745,6 +745,27 @@ q {
   }
 }
 //payment-page end
+
+//payment details
+.payment-detail-page {
+  padding-top: 130px;
+  label.custom-control-label p {
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    color: #3D3D3D;
+  }
+  .custom-checkbox .custom-control-label::before {
+    border: 2px solid #9E9E9E;
+  }
+  form {
+    .btn-primary.btn-lg {
+      padding: 10px 80px;
+    }
+  }
+}
+
+//payment details end
 //Review section End
 .footer {
   background: transparent linear-gradient(0deg, #F8D7C7 0%, #F6CDD6 76%, #F6CDD6 100%) 0% 0% no-repeat padding-box;

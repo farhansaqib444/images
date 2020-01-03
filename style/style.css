@@ -581,6 +581,18 @@ q:before, q:after {
         .total-payment-card ul li.user-list span:last-child {
           font-weight: 400; }
 
+.payment-detail-page {
+  padding-top: 130px; }
+  .payment-detail-page label.custom-control-label p {
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    color: #3D3D3D; }
+  .payment-detail-page .custom-checkbox .custom-control-label::before {
+    border: 2px solid #9E9E9E; }
+  .payment-detail-page form .btn-primary.btn-lg {
+    padding: 10px 80px; }
+
 .footer {
   background: transparent linear-gradient(0deg, #F8D7C7 0%, #F6CDD6 76%, #F6CDD6 100%) 0% 0% no-repeat padding-box;
   box-shadow: 0px -3px 10px #0000000A;

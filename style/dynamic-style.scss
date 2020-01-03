@@ -247,6 +247,9 @@ button.btn {
 .font-600 {
   font-weight: 600 !important;
 }
+.font-14 {
+  font-size: 14px !important;
+}
 .font-16 {
   font-size: 16px !important;
 }
@@ -261,6 +264,12 @@ button.btn {
 }
 .font-33 {
   font-size: 33px !important;
+}
+.font-40 {
+  font-size: 40px;
+}
+.font-50 {
+  font-size: 50px;
 }
 .border {
   border: 1px solid #D4D4D4;
@@ -465,6 +474,7 @@ button.btn {
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
   background-color: #FF9797;
 }
+
 //custom-checkbox end
 
 //custom form fieldset
@@ -495,6 +505,10 @@ button.btn {
     i {
       color: #1E1E1E;
     }
+  }
+  .bg-custom-form {
+    background: rgba(248, 248, 248, 0.88) 0% 0% no-repeat padding-box;
+    padding: 30px 30px;
   }
 }
 
@@ -685,6 +699,27 @@ button.btn {
       }
     }
 
+  }
+}
+
+.simple-form {
+  label {
+    margin-bottom: 8px;
+  }
+  .form-group {
+    margin-bottom: 25px;
+    .form-control{
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #D4D4D4;
+      border-radius: 5px;
+      display: block;
+      width: 100%;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #495057;
+      transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
   }
 }
 @media (min-width: 768px) {
