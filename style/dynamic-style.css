@@ -167,6 +167,18 @@ button.btn {
   border-radius: 4px !important;
   border: 2px solid #FF9797 !important; }
 
+.tag-group .tag-btn {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+  letter-spacing: 0;
+  color: #A4A4A4;
+  background: #F8F8F8 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  border: none;
+  padding: 6px 25px; }
+
 .bg-gray {
   background-color: #FBF5F5; }
 
@@ -269,6 +281,9 @@ button.btn {
 
 .dotted-border-b {
   border-bottom: 1px dotted #9E9E9E; }
+
+.rounded-pill {
+  border-radius: 50rem !important; }
 
 .user-rating-card {
   padding-bottom: 25px;
@@ -553,7 +568,14 @@ button.btn {
   background: transparent;
   border: none; }
   .salon-modal .modal-header {
-    padding: 0; }
+    padding: 30px 40px 15px 40px;
+    background: url("../images/salon-modal-header.jpg"); }
+    .salon-modal .modal-header h2 {
+      font-size: 33px;
+      font-weight: 300;
+      font-family: 'Fira Sans', sans-serif;
+      letter-spacing: 0;
+      color: #FFFFFF; }
     .salon-modal .modal-header .close {
       position: absolute;
       top: -35px;
@@ -566,6 +588,11 @@ button.btn {
   .salon-modal .modal-body {
     background-color: #fff;
     padding: 15px 15px; }
+    .salon-modal .modal-body .btn {
+      padding: 10px 55px; }
+      .salon-modal .modal-body .btn.btn-primary {
+        background: #FF9797 0% 0% no-repeat padding-box;
+        border-radius: 4px; }
     .salon-modal .modal-body .form-group .form-control {
       padding: 5px 0;
       font-size: 16px;
@@ -573,6 +600,13 @@ button.btn {
       font-family: 'Fira Sans', sans-serif;
       letter-spacing: 0;
       color: #AFAFAF; }
+      .salon-modal .modal-body .form-group .form-control p {
+        margin-bottom: 15px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Fira Sans', sans-serif;
+        letter-spacing: 0;
+        color: #373737; }
       .salon-modal .modal-body .form-group .form-control::-webkit-input-placeholder {
         /* Edge */
         color: #AFAFAF;
@@ -586,13 +620,26 @@ button.btn {
         font-weight: 400; }
   .salon-modal .modal-footer {
     background-color: #fff;
-    border-top: 0;
-    justify-content: center;
-    flex-direction: column; }
-    .salon-modal .modal-footer .btn {
-      padding: 10px 55px; }
-      .salon-modal .modal-footer .btn.btn-primary {
-        background: transparent linear-gradient(90deg, #F8D7C7 0%, #F6CDD6 51%, #F6CDD6 100%) 0% 0% no-repeat padding-box; }
+    padding: 30px 60px;
+    border-top: 1px solid #EBEBEB;
+    justify-content: flex-end; }
+  .salon-modal.payment-method .modal-body h6 {
+    font-size: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #A4A4A4;
+    margin-bottom: 8px; }
+  .salon-modal.payment-method .modal-body .booking-request-time span {
+    color: #A4A4A4;
+    display: inline-block;
+    margin-right: 25px; }
+    .salon-modal.payment-method .modal-body .booking-request-time span i {
+      vertical-align: sub;
+      color: #A4A4A4;
+      font-size: 20px; }
+    .salon-modal.payment-method .modal-body .booking-request-time span time {
+      line-height: 24px; }
 
 .simple-form label {
   margin-bottom: 8px; }
