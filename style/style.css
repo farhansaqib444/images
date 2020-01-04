@@ -1,43 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del,
-dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup,
-tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label,
-legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption, footer, header, hgroup, menu,
-nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font-family: 'Fira Sans', sans-serif;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-.nowrap {
-  white-space: nowrap; }
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after {
-  content: '';
-  content: none; }
-
-q:before, q:after {
-  content: '';
-  content: none; }
-
 .login-btn {
   background: transparent linear-gradient(356deg, #F8D7C7 0%, #F6CDD6 100%) 0% 0% no-repeat padding-box;
   border-radius: 22px;
@@ -626,6 +588,50 @@ q:before, q:after {
     justify-content: center;
     flex-direction: column;
     align-items: center; }
+
+.tabular-page .tabular-link {
+  background-color: #FFEEEE;
+  color: #343434;
+  font-size: 18px;
+  font-family: 'Fira Sans', sans-serif;
+  padding: 30px 20px;
+  border-radius: 2px;
+  margin-bottom: 5px; }
+.tabular-page .nav-pills .tabular-link.active, .tabular-page .nav-pills .show > .tabular-link {
+  background-color: #FFEEEE;
+  color: #343434; }
+.tabular-page .tab-content h1.tabular-title {
+  font-size: 38px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: #484848;
+  margin-bottom: 40px; }
+.tabular-page .tab-content .tab-content-section {
+  margin-bottom: 45px; }
+  .tabular-page .tab-content .tab-content-section h2 {
+    letter-spacing: 0;
+    color: #434343;
+    font-size: 22px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    margin-bottom: 18px; }
+  .tabular-page .tab-content .tab-content-section p {
+    letter-spacing: 0;
+    color: #373737;
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    line-height: 23px; }
+  .tabular-page .tab-content .tab-content-section ul {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    list-style: disc outside none;
+    padding-left: 20px; }
+    .tabular-page .tab-content .tab-content-section ul li {
+      margin-bottom: 15px;
+      line-height: 23px; }
 
 .footer {
   background: transparent linear-gradient(0deg, #F8D7C7 0%, #F6CDD6 76%, #F6CDD6 100%) 0% 0% no-repeat padding-box;
