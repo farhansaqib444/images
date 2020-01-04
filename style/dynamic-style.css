@@ -173,6 +173,11 @@ button.btn {
 .bg-pink {
   background-color: #F9D4CC; }
 
+.mini-container {
+  max-width: 839px;
+  width: 100%;
+  margin: 0 auto; }
+
 .section-title {
   font-size: 38px;
   font-weight: 600;
@@ -264,8 +269,6 @@ button.btn {
 
 .dotted-border-b {
   border-bottom: 1px dotted #9E9E9E; }
-.dotted-border-t {
-  border-top: 1px dotted #9E9E9E; }
 
 .user-rating-card {
   padding-bottom: 25px;
@@ -606,6 +609,27 @@ button.btn {
     line-height: 1.5;
     color: #495057;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
+
+.classic-form {
+  background: #FFF5F7 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding: 20px 25px; }
+  .classic-form .form-group label {
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #5B5B5B;
+    margin-bottom: 10px; }
+  .classic-form .form-group label > p {
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #5B5B5B; }
+  .classic-form .form-group .form-control {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #AFAFAF; }
 
 @media (min-width: 768px) {
   .price-card ul li {
