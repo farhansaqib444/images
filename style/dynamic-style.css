@@ -21,7 +21,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block; }
 
 body {
-  line-height: 1; }
+  line-height: 1;
+  padding: 0 !important;
+  margin: 0; }
 
 ol, ul {
   list-style: none; }
@@ -678,6 +680,25 @@ button.btn {
       font-size: 20px; }
     .salon-modal.payment-method .modal-body .booking-request-time span time {
       line-height: 24px; }
+  .salon-modal.refer-modal h3 {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 0;
+    color: #5E5E5E;
+    margin-bottom: 20px; }
+  .salon-modal.refer-modal ul.refer-socially li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #F1F1F1; }
+    .salon-modal.refer-modal ul.refer-socially li span:first-child {
+      font-size: 16px;
+      font-weight: 400;
+      font-family: 'Fira Sans', sans-serif;
+      letter-spacing: 0;
+      color: #4A4A4A; }
 
 .simple-form label {
   margin-bottom: 8px; }
@@ -725,6 +746,6 @@ button.btn {
 @media (min-width: 576px) {
   .modal-dialog {
     max-width: 600px;
-    margin: 1.75rem auto; } }
+    margin: 5.0rem auto; } }
 
 /*# sourceMappingURL=dynamic-style.css.map */
