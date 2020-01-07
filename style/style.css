@@ -641,6 +641,54 @@
       margin-bottom: 15px;
       line-height: 23px; }
 
+.classic-login {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #BFBFBF;
+  border-radius: 5px;
+  margin-bottom: 30px; }
+  .classic-login .classic-login-header {
+    background: #E8E8E8 0% 0% no-repeat padding-box;
+    border-bottom: 1px solid #BFBFBF;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px 15px; }
+    .classic-login .classic-login-header h3 {
+      font-size: 18px;
+      font-family: 'Fira Sans', sans-serif;
+      font-weight: 400;
+      letter-spacing: 0;
+      color: #333333; }
+  .classic-login .classic-login-body {
+    padding: 15px 15px; }
+    .classic-login .classic-login-body p {
+      font-size: 14px;
+      font-family: 'Fira Sans', sans-serif;
+      font-weight: 400;
+      letter-spacing: 0;
+      color: #333333;
+      margin-bottom: 20px; }
+    .classic-login .classic-login-body label, .classic-login .classic-login-body a {
+      font-size: 14px;
+      font-family: 'Fira Sans', sans-serif;
+      font-weight: 400;
+      letter-spacing: 0;
+      color: #333333; }
+    .classic-login .classic-login-body input.form-control, .classic-login .classic-login-body textarea.form-control {
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #B1B1B1;
+      border-radius: 0;
+      padding: 3px 3px; }
+  .classic-login .classic-login-footer {
+    padding: 10px 15px; }
+    .classic-login .classic-login-footer .classic-gray-btn {
+      font-size: 15px;
+      font-family: 'Fira Sans', sans-serif;
+      font-weight: 300;
+      letter-spacing: 0;
+      color: #313131;
+      padding: 5px 20px;
+      background: #CCCCCC 0% 0% no-repeat padding-box;
+      border-radius: 2px; }
+
 .footer {
   background: transparent linear-gradient(0deg, #F8D7C7 0%, #F6CDD6 76%, #F6CDD6 100%) 0% 0% no-repeat padding-box;
   box-shadow: 0px -3px 10px #0000000A;

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Refer - screen 29</title>
+  <title>Login and register - screen 36</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -16,7 +16,6 @@
   <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
-
 <div class="header">
   <div class="container">
     <nav class="navbar navbar-expand-md navbar-light">
@@ -38,11 +37,55 @@
     </nav>
   </div>
 </div>
-<div class="verification-page min-vh-100">
-  <div class="mini-container">
-    <div class="row">
-      <div class="col-12">
-        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#refer-modal">Refer Modal</button>
+<div class="mini-container mt-5">
+  <div class="row">
+    <div class="col">
+      <div class="classic-login">
+        <form>
+          <div class="classic-login-header">
+              <h3>Log in to an existing profile</h3>
+          </div>
+          <div class="classic-login-body">
+            <p >
+              All the juiciest bits of Pampr are ready and waiting - just log in to your profile and get stuck in.
+            </p>
+            <div class="form-group row">
+              <label for="staticEmail" class="col-sm-3 col-form-label">Email Address:</label>
+              <div class="col-sm-4">
+                <input type="text" class="form-control" id="staticEmail" value="email@example.com">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputPassword" class="col-sm-3 col-form-label">Password</label>
+              <div class="col-sm-4">
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group row">
+              <a href="#" for="inputPassword" class="col-sm-6 col-form-label">Forgot passwords</a>
+            </div>
+          </div>
+          <div class="classic-login-footer text-right pt-0">
+            <button class="btn classic-gray-btn">
+              Log in
+            </button>
+          </div>
+      </div>
+      <div class="classic-login">
+        <form>
+          <div class="classic-login-header">
+            <h3>Create a profile</h3>
+          </div>
+          <div class="classic-login-body">
+            <p >
+              If you haven‘t set up your Pampr profile yet, why not take a minute to register ?
+              We promise it won’t take long.            </p>
+          </div>
+          <div class="classic-login-footer text-right pt-0">
+            <button class="btn classic-gray-btn">
+              Register
+            </button>
+          </div>
       </div>
     </div>
   </div>
@@ -71,9 +114,9 @@
             <div class="input-group md-form form-sm form-2 pl-0 mb-4">
               <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search">
               <div class="input-group-append">
-                      <span class="input-group-text red lighten-3" id="basic-text1">
-                        <i class="material-icons">search</i>
-                      </span>
+                          <span class="input-group-text red lighten-3" id="basic-text1">
+                            <i class="material-icons">search</i>
+                          </span>
               </div>
             </div>
           </div>
@@ -129,55 +172,6 @@
     </div>
   </div>
 </div>
-
-
-<div class="modal fade" id="refer-modal" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content salon-modal refer-modal">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <img src="../images/Group 1324.png" class="img-fluid">
-        </button>
-        <h2>Refer</h2>
-      </div>
-      <div class="modal-body">
-        <h3>Refer by email</h3>
-        <form class="custom-from">
-          <div class="row">
-            <div class="col-12">
-              <h5 class="py-2"> Email</h5>
-              <div class="input-group mb-4">
-                <input class="form-control border" type="email" placeholder="Ex: example@gmail.com">
-              </div>
-            </div>
-          </div>
-          <button class="btn btn-primary btn-lg">Refer</button>
-        </form>
-        <ul class="refer-socially">
-          <li>
-            <span>Facebook</span>
-            <span><img src="../images/facebook-icon.png" alt="facebook"></span>
-          </li>
-          <li>
-            <span>Gmail</span>
-            <span><img src="../images/gmail-icon.png" alt="facebook"></span>
-          </li>
-          <li>
-            <span>Instagram</span>
-            <span><img src="../images/insta-icon.png" alt="facebook"></span>
-          </li>
-          <li>
-            <span>Tweet</span>
-            <span><img src="../images/twitter-icon.png" alt="facebook"></span>
-          </li>
-            <span>iMessage</span>
-            <span><img src="../images/line-icon.png" alt="facebook"></span>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
 <!-- bootstrap -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -187,12 +181,8 @@
         crossorigin="anonymous"></script>
 <!-- select2 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+
 <!-- select2-bootstrap4-theme -->
 <script src="./js/script.js"></script>
-<script src="../javascript/javascript.js"></script>
 </body>
 </html>
-
-
-
-
