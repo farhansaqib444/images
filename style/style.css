@@ -616,6 +616,14 @@
     font-family: 'Fira Sans', sans-serif;
     font-weight: 500;
     margin-bottom: 18px; }
+    .tabular-page .tab-content .tab-content-section h2.secondary-title {
+      font-size: 28px;
+      font-family: 'Fira Sans', sans-serif;
+      font-weight: 500;
+      letter-spacing: 0;
+      color: #434343;
+      opacity: 1;
+      margin-bottom: 15px; }
   .tabular-page .tab-content .tab-content-section p {
     letter-spacing: 0;
     color: #373737;
