@@ -564,14 +564,14 @@
     font-weight: 500;
     letter-spacing: 4.95px;
     color: #2E2E2E;
-    margin-bottom: 15px; }
+    margin-bottom: 20px; }
   .verification-page p {
     font-family: 'Fira Sans', sans-serif;
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 0;
     color: #333333;
-    margin-bottom: 50px; }
+    margin-bottom: 55px; }
   .verification-page img {
     margin-bottom: 70px; }
   .verification-page input {
@@ -581,8 +581,8 @@
     color: #959595;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #AFAFAF;
-    max-width: 446px;
-    width: 100%; }
+    width: 100%;
+    border-radius: 0; }
   .verification-page div.col-12 {
     display: flex;
     justify-content: center;
