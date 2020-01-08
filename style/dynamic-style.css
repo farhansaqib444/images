@@ -205,7 +205,7 @@ button.btn {
   color: #FF9797;
   background: transparent 0% 0% no-repeat padding-box;
   border-radius: 4px !important;
-  border: 2px solid #FF9797 !important; }
+  border: 1px solid #FF9797 !important; }
 
 .tag-group .tag-btn {
   font-size: 15px;
@@ -324,6 +324,29 @@ button.btn {
 
 .rounded-pill {
   border-radius: 50rem !important; }
+
+.theme-separator {
+  border-top: 1px solid #DEDEDE;
+  width: calc(100% - 20%);
+  margin: 40px 0;
+  position: relative; }
+  .theme-separator label {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Roboto;
+    color: #313133;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #FF9797;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    background: #fff; }
 
 .user-rating-card {
   padding-bottom: 25px;
