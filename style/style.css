@@ -689,37 +689,72 @@
       background: #CCCCCC 0% 0% no-repeat padding-box;
       border-radius: 2px; }
 
-.add-salon h2 {
-  font-size: 28px;
-  font-family: 'Fira Sans', sans-serif;
-  font-weight: 500;
-  letter-spacing: 0;
-  color: #FF9797;
-  margin-bottom: 20px; }
-
-.add-salon-from label {
-  font-size: 16px;
-  font-family: 'Fira Sans', sans-serif;
-  font-weight: 500;
-  letter-spacing: 0;
-  color: #313133; }
-.add-salon-from .input-group input.form-control {
-  outline: none;
-  padding: 8px 15px;
-  border-right: 0;
-  border-left: 1px solid #FF9797;
-  border-top: 1px solid #FF9797;
-  border-bottom: 1px solid #FF9797;
-  border-radius: 4px 0 0 4px; }
-.add-salon-from .input-group-text {
-  background: #fff;
-  border-left: 0;
-  border-right: 1px solid #FF9797;
-  border-top: 1px solid #FF9797;
-  border-bottom: 1px solid #FF9797;
-  border-radius: 4px 4px 4px 4px; }
-  .add-salon-from .input-group-text i {
-    color: #FF9797; }
+.add-salon {
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto; }
+  .add-salon h2 {
+    font-size: 28px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #FF9797;
+    margin-bottom: 20px; }
+  .add-salon .add-salon-from label {
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #313133; }
+  .add-salon .add-salon-from .input-group input.form-control {
+    outline: none;
+    padding: 8px 15px;
+    border-right: 0;
+    border-left: 1px solid #FF9797;
+    border-top: 1px solid #FF9797;
+    border-bottom: 1px solid #FF9797;
+    border-radius: 4px 0 0 4px; }
+  .add-salon .add-salon-from .input-group-text {
+    background: #fff;
+    border-left: 0;
+    border-right: 1px solid #FF9797;
+    border-top: 1px solid #FF9797;
+    border-bottom: 1px solid #FF9797;
+    border-radius: 4px 4px 4px 4px; }
+    .add-salon .add-salon-from .input-group-text i {
+      color: #FF9797; }
+  .add-salon .set-availability {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    margin-bottom: 20px; }
+  .add-salon .custom-checkbox {
+    padding-top: 3px; }
+    .add-salon .custom-checkbox .custom-control-label {
+      margin-left: 15px;
+      font-size: 20px;
+      font-family: 'Fira Sans', sans-serif;
+      font-weight: 500; }
+      .add-salon .custom-checkbox .custom-control-label.holiday {
+        color: #AFAFAF; }
+  .add-salon .time-picker input.set-time {
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    padding: 8px 8px;
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #5D5D5D;
+    width: 125px;
+    border: none; }
+  .add-salon .time-picker ::placeholder {
+    /* Edge */
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    color: #5D5D5D; }
 
 .footer {
   background: transparent linear-gradient(0deg, #F8D7C7 0%, #F6CDD6 76%, #F6CDD6 100%) 0% 0% no-repeat padding-box;
