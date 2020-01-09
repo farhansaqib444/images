@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Line Chat - screen 50</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../style/dynamic-style.css">
+  <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+<div class="header">
+  <div class="container">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a href="#" class="navbar-brand">
+        <img src="../images/pamper-logo.png" alt="pamper-logo">
+      </a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+        <div class="navbar-nav">
+          <a href="#" class="nav-item nav-link active">Home</a>
+          <a href="#" class="nav-item nav-link">Favourite</a>
+          <a href="#" class="nav-item nav-link login-btn text-white d-none">Login</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+<div class="container">
+  <div class="row position-relative">
+    <div class="col-12 tab-row"></div>
+    <div class="col-md-3">
+      <div class="user-card">
+        <img class="img-fluid" src="../images/user-dp.png" alt="">
+        <h2>Lori Meyer</h2>
+        <p class="gender">
+          Female
+        </p>
+        <button class="btn btn-secondary btn-block text-uppercase mb-4">Edit my profile</button>
+        <div class="user-card-footer">
+          <a class="login-info" href="">Login Info</a>
+          <a class="mail-link" href="">beatrice.smith@mail.com</a>
+          <a class="reset-pass" href="">Reset Password</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <ul class="nav nav-tabs parent-tab" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="ml-0 nav-link " id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">My Jobs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link show active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Line Chat <span class="counter-icon">2</span></a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <ul class="nav nav-tabs child-tab bold-border" id="BookingsTab" role="tablist">
+            <li class="nav-item">
+              <a class="ml-0 nav-link active" id="Upcoming-tab" data-toggle="tab" href="#Upcoming" role="tab" aria-controls="home" aria-selected="true">Unconfirmed <span>2</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="previous-tab" data-toggle="tab" href="#previous" role="tab" aria-controls="profile" aria-selected="false">Confirmed</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="cancelled-tab" data-toggle="tab" href="#cancelled" role="tab" aria-controls="contact" aria-selected="false">History</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="BookingsTabContent">
+            <div class="tab-pane fade show active" id="Upcoming" role="tabpanel" aria-labelledby="home-tab">
+              <div class="table-responsive">
+                <table class="table">
+                  <tbody class="w-100">
+                  <tr>
+                    <td width="90px" align="center" class="bg-gray">
+                      <p class="booking-date">Oct 23</p>
+                      <p class="booking-time">10:00</p>
+                    </td>
+                    <td>
+                      <p class="booking-destination">Brow Wex</p>
+                      <p>Belle Curls Salon</p>
+                    </td>
+                    <td align="right" valign="middle" class="nowrap">
+                      <p class="booking-reason">View</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="90px" align="center" class="bg-gray">
+                      <p class="booking-date">Oct 23</p>
+                      <p class="booking-time">10:00</p>
+                    </td>
+                    <td>
+                      <p class="booking-destination">Brow Wex</p>
+                      <p>Right now View, you already know that you are in for a collection of the best free booking </p>
+                    </td>
+                    <td align="right" valign="middle">
+                      <p class="booking-reason nowrap">View</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="90px" align="center" class="bg-gray">
+                      <p class="booking-date">Oct 23</p>
+                      <p class="booking-time">10:00</p>
+                    </td>
+                    <td>
+                      <p class="booking-destination">Brow Wex</p>
+                      <p>Belle Curls Salon</p>
+                    </td>
+                    <td align="right" valign="middle" class="nowrap">
+                      <p class="booking-reason">View</p>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="previous" role="tabpanel" aria-labelledby="profile-tab">previous</div>
+            <div class="tab-pane fade" id="cancelled" role="tabpanel" aria-labelledby="contact-tab">cancelled</div>
+          </div>
+        </div>
+        <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <div class="chat-tab">
+            <ul>
+              <li>
+                <div class="media">
+                  <img class="mr-3" src="../images/services-icon-2.png" alt="Generic placeholder image">
+                  <div class="media-body">
+                    <h5 class="mt-0">Elizabeth Vargas <span class="user-online"></span></h5>
+                    <p>Hey, I am Elizabeth lives in....</p>
+                  </div>
+                </div>
+                <div class="message-time">
+                  1 hour ago
+                </div>
+              </li>
+              <li>
+                <div class="media">
+                  <img class="mr-3" src="../images/services-icon-2.png" alt="Generic placeholder image">
+                  <div class="media-body">
+                    <h5 class="mt-0">Elizabeth Vargas <span class="user-offline"></span></h5>
+                    <p>Hey, I am Elizabeth lives in....</p>
+                  </div>
+                </div>
+                <div class="message-time">
+                  1 hour ago
+                </div>
+              </li>
+              <li>
+                <div class="media">
+                  <img class="mr-3" src="../images/services-icon-2.png" alt="Generic placeholder image">
+                  <div class="media-body">
+                    <h5 class="mt-0">Elizabeth Vargas <span class="user-online"></span></h5>
+                    <p>Hey, I am Elizabeth lives in....</p>
+                  </div>
+                </div>
+                <div class="message-time">
+                  1 hour ago
+                </div>
+              </li>
+              <li>
+                <div class="media">
+                  <img class="mr-3" src="../images/services-icon-2.png" alt="Generic placeholder image">
+                  <div class="media-body">
+                    <h5 class="mt-0">Elizabeth Vargas <span class="user-offline"></span></h5>
+                    <p>Hey, I am Elizabeth lives in....</p>
+                  </div>
+                </div>
+                <div class="message-time">
+                  1 hour ago
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="footer-widget">
+          <h3 class="widget-title">Navigation</h3>
+          <div class="widget-content">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Term & Conditions</a></li>
+              <li><a href="">Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="footer-widget">
+          <h3 class="widget-title">Search</h3>
+          <div class="widget-content">
+            <div class="input-group md-form form-sm form-2 pl-0 mb-4">
+              <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search">
+              <div class="input-group-append">
+                <span class="input-group-text red lighten-3" id="basic-text1">
+                  <i class="material-icons">search</i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="social-media">
+            <a href=""><img src="../images/twitter.png" alt="twitter"></a>
+            <a href=""><img src="../images/facebook.png" alt="facebook"></a>
+            <a href=""><img src="../images/twitter.png" alt="twitter"></a>
+          </div>
+          <div class="apps-button-group">
+            <a href="#">
+              <img src="../images/app-store.png" alt="app-store">
+            </a>
+            <a href="#">
+              <img src="../images/play-store.png" alt="app-store">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="footer-widget">
+          <h3 class="widget-title">Latest Salon</h3>
+          <div class="widget-content">
+            <div class="row gallery">
+              <div class="col-md-4">
+                <a href=""><img src="../images/mask.png" class="img-fluid" alt="mask"></a>
+              </div>
+              <div class="col-md-4">
+                <a href=""><img src="../images/mask1.png" class="img-fluid" alt="mask"></a>
+              </div>
+              <div class="col-md-4">
+                <a href=""><img src="../images/mask2.png" class="img-fluid" alt="mask"></a>
+              </div>
+              <div class="col-md-4">
+                <a href=""><img src="../images/mask3.png" class="img-fluid" alt="mask"></a>
+              </div>
+              <div class="col-md-4">
+                <a href=""><img src="../images/mask4.png" class="img-fluid" alt="mask"></a>
+              </div>
+              <div class="col-md-4">
+                <a href=""><img src="../images/mask5.png" class="img-fluid" alt="mask"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col bottom-footer mt-5">
+        <p class="copy-right">
+          © 2019 Pampr Limited
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="../javascript/javascript.js"></script>
+</body>
+</html>

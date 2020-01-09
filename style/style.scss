@@ -49,7 +49,7 @@
     display: block;
     padding: 0;
     margin: 0 50px 10px 0;
-    span {
+    span.counter-icon {
       position: absolute;
       width: 18px;
       height: 18px;
@@ -102,9 +102,8 @@
       height: 18px;
       background: #FF9797 0% 0% no-repeat padding-box;
       top: -17px;
-      right: 10px;
+      right: -15px;
       text-align: center;
-      vertical-align: middle;
       display: inline-block;
       border-radius: 50%;
       font-size: 14px;
@@ -1139,7 +1138,60 @@
 }
 //services and rates css
 
-
+//chat tab css
+.chat-tab {
+  ul {
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+      padding: 10px 0;
+      .media {
+        align-items: center;
+        img {
+          max-width: 78px;
+          width: 100%;
+          border-radius: 50%;
+          margin-right: 20px;
+        }
+        h5 {
+          font-size: 20px;
+          font-family: Roboto;
+          font-weight: 500;
+          letter-spacing: 0;
+          color: #E3025B;
+          margin-bottom: 10px;
+          .user-online {
+            display: inline-block;
+            margin-left: 10px;
+            width: 12px;
+            height: 11px;
+            background: #31B112 0% 0% no-repeat padding-box;
+            border-radius: 50%;
+          }
+          .user-offline {
+            display: inline-block;
+            margin-left: 10px;
+            width: 12px;
+            height: 11px;
+            background: #ACACAC 0% 0% no-repeat padding-box;
+            border-radius: 50%;
+          }
+        }
+        p{
+          font-size: 18px;
+          font-family: Roboto;
+          font-weight: 400;
+          color: #303030;
+        }
+      }
+      .message-time {
+      }
+    }
+  }
+}
+//chat tab end
 .footer {
   background: transparent linear-gradient(0deg, #F8D7C7 0%, #F6CDD6 76%, #F6CDD6 100%) 0% 0% no-repeat padding-box;
   box-shadow: 0px -3px 10px #0000000A;
