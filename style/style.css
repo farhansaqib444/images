@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap");
 .login-btn {
   background: transparent linear-gradient(356deg, #F8D7C7 0%, #F6CDD6 100%) 0% 0% no-repeat padding-box;
   border-radius: 22px;
@@ -748,13 +748,106 @@
     letter-spacing: 0;
     color: #5D5D5D;
     width: 125px;
-    border: none; }
+    border: none;
+    margin-bottom: 5px; }
   .add-salon .time-picker ::placeholder {
     /* Edge */
     font-size: 18px;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 500;
     color: #5D5D5D; }
+
+.salon-services ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-weight: 500;
+  color: #4A4A4A; }
+.salon-services ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-weight: 500;
+  color: #4A4A4A; }
+.salon-services :-ms-input-placeholder {
+  /* IE 10+ */
+  font-weight: 500;
+  color: #4A4A4A; }
+.salon-services :-moz-placeholder {
+  /* Firefox 18- */
+  font-weight: 500;
+  color: #4A4A4A; }
+.salon-services h2 {
+  font-size: 28px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: #FF9797;
+  margin-bottom: 20px; }
+.salon-services .service-options {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 70px;
+  position: relative; }
+  .salon-services .service-options img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 117px;
+    height: 117px; }
+  .salon-services .service-options h3 {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #FF9797; }
+  .salon-services .service-options span {
+    border-radius: 50%;
+    color: #fff;
+    width: 33px;
+    height: 33px;
+    background: #FF9797 0% 0% no-repeat padding-box;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 34%;
+    transform: translate(-50%, -50%); }
+    .salon-services .service-options span i {
+      padding-top: 4px; }
+.salon-services .service-item {
+  margin-bottom: 35px; }
+  .salon-services .service-item .custom-checkbox {
+    display: inline-block;
+    vertical-align: top; }
+.salon-services .service-item-card {
+  display: inline-block;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 5px #5D5D5D30;
+  border-radius: 10px;
+  max-width: 320px;
+  width: 100%; }
+  .salon-services .service-item-card .media .media-body {
+    padding: 10px 10px; }
+    .salon-services .service-item-card .media .media-body h5 {
+      color: #F2BDCF;
+      font-size: 20px;
+      font-weight: 500;
+      font-family: Roboto;
+      margin-bottom: 25px; }
+    .salon-services .service-item-card .media .media-body span {
+      font-size: 18px;
+      font-weight: 500;
+      font-family: Roboto;
+      letter-spacing: 0;
+      color: #5E5E5E; }
+    .salon-services .service-item-card .media .media-body input {
+      width: 60px;
+      height: 35px;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      box-shadow: 0px 0px 4px #00000029;
+      border: 1px solid #FF9797;
+      border-radius: 10px;
+      font-size: 20px;
+      font-weight: 500;
+      font-family: Roboto;
+      padding: 5px; }
+      .salon-services .service-item-card .media .media-body input:focus {
+        outline: none; }
 
 .footer {
   background: transparent linear-gradient(0deg, #F8D7C7 0%, #F6CDD6 76%, #F6CDD6 100%) 0% 0% no-repeat padding-box;
