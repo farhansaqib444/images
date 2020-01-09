@@ -379,6 +379,92 @@ button.btn {
     background: #fff;
 }
 }
+
+//switch btn
+
+.switch {
+  position: relative;
+  display: inline-block;
+}
+
+.cmn-toggle {
+  position: absolute;
+  visibility: hidden;
+}
+
+.switch {
+  .no-absolute {
+    font-family: Roboto;
+    position: absolute;
+    top: 8px;
+    z-index: 1;
+    right: 7px;
+    font-size: 14px !important;
+  }
+
+  .yes-absolute {
+    font-family: Roboto;
+    color: #FF9797  !important;
+    position: absolute;
+    top: 8px;
+    z-index: 1;
+    left: 7px;
+    font-size: 14px !important;
+  }
+}
+
+.cmn-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+input.cmn-toggle-round-flat {
+  + label {
+    width: 60px;
+    height: 30px;
+    background-color: #707070;
+    border-radius: 60px;
+    transition: background 0.4s;
+
+    &:before, &:after {
+      display: block;
+      position: absolute;
+      content: "";
+    }
+
+    &:before {
+      top: 2px;
+      left: 2px;
+      bottom: 2px;
+      right: 2px;
+      background-color: #fff;
+      border-radius: 60px;
+      transition: background 0.4s;
+    }
+
+    &:after {
+      height: 30px;
+      width: 30px;
+      background-color: #707070;
+      border-radius: 53px;
+      transition: margin 0.4s, background 0.4s;
+      z-index: 9;
+    }
+  }
+
+  &:checked + label {
+    background-color: #FF9797 ;
+
+    &:after {
+      margin-left: 30px;
+      background-color: #FF9797 ;
+    }
+  }
+}
+//switch btn
 //user-rating-card styling start
 .user-rating-card {
    padding-bottom: 25px;
