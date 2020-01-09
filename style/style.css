@@ -34,6 +34,7 @@
   padding: 40px 0 15px 0;
   border-bottom: none; }
   .nav-tabs .nav-link {
+    position: relative;
     border: none;
     border-radius: 0;
     color: #676767;
@@ -42,6 +43,19 @@
     display: block;
     padding: 0;
     margin: 0 50px 10px 0; }
+    .nav-tabs .nav-link span {
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      background: #FF9797 0% 0% no-repeat padding-box;
+      top: -17px;
+      right: -15px;
+      text-align: center;
+      display: inline-block;
+      border-radius: 50%;
+      font-size: 14px;
+      color: #fff;
+      padding-top: 3px; }
 
 .nav-tabs.parent-tab .nav-link:after {
   content: '';
