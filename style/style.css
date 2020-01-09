@@ -57,6 +57,8 @@
   padding: 25px 0 0 0; }
   .nav-tabs.child-tab.bold-border {
     border-bottom: 3px solid #E1E1E1; }
+  .nav-tabs.child-tab .nav-item {
+    position: relative; }
   .nav-tabs.child-tab .nav-link {
     border: none;
     border-radius: 0;
@@ -67,6 +69,20 @@
     display: block;
     padding: 0;
     margin: 0 25px 10px 0; }
+    .nav-tabs.child-tab .nav-link span {
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      background: #FF9797 0% 0% no-repeat padding-box;
+      top: -17px;
+      right: 10px;
+      text-align: center;
+      vertical-align: middle;
+      display: inline-block;
+      border-radius: 50%;
+      font-size: 14px;
+      color: #fff;
+      padding-top: 3px; }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
   color: #676767;
